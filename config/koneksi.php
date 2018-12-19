@@ -1,9 +1,9 @@
 <?php
 	
 	$dbhost = "localhost";
-	$dbuser = "k0762615_pegawai";
-	$dbpass = "PegawaiLrcom123!@#";
-	$dbname = "k0762615_pegawai_1";
+	$dbuser = "root";
+	$dbpass = "";
+	$dbname = "db_pegawai";
 
 	$con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
