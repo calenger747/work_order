@@ -1,0 +1,815 @@
+[29-Aug-2018 10:14:27 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:14:27 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:55:17 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:55:17 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:55:17 Asia/Jakarta] PHP Warning:  md5() expects parameter 1 to be string, object given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 10:55:17 Asia/Jakarta] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 10:55:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:55:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:55:23 Asia/Jakarta] PHP Warning:  md5() expects parameter 1 to be string, object given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 10:55:23 Asia/Jakarta] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 10:56:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:56:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 10:56:08 Asia/Jakarta] PHP Warning:  md5() expects parameter 1 to be string, object given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 10:56:08 Asia/Jakarta] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 11:06:22 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:06:22 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:06:22 Asia/Jakarta] PHP Warning:  md5() expects parameter 1 to be string, object given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 11:06:22 Asia/Jakarta] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 11:08:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:08:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:08:23 Asia/Jakarta] PHP Warning:  md5() expects parameter 1 to be string, object given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 11:09:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:09:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:09:07 Asia/Jakarta] PHP Warning:  md5() expects parameter 1 to be string, object given in /home/k0762615/public_html/work-order/cek-login.php on line 9
+[29-Aug-2018 11:10:36 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:10:36 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 11:10:36 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[29-Aug-2018 13:07:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 13:07:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 13:07:41 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[29-Aug-2018 15:47:45 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 15:47:45 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 15:48:15 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 15:48:15 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 15:49:36 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 15:49:36 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[29-Aug-2018 15:49:36 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[06-Sep-2018 15:51:30 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[06-Sep-2018 15:51:30 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[06-Sep-2018 15:51:30 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 05:40:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 05:40:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 05:40:00 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 09:00:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 09:00:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 09:00:23 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:04:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:04:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:05:04 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:05:04 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:05:51 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:05:51 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:05:56 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:05:56 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:07:21 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:07:21 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:07:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:07:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:07:23 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:08:18 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:08:18 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:08:18 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:08:51 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:08:51 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:08:51 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:10:50 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:10:50 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:10:55 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:10:55 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:11:01 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:11:01 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:11:59 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:11:59 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:11:59 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:12:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:12:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:12:08 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:13:22 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:22 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:22 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:13:22 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:22 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:22 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:13:24 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:24 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:24 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:13:29 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:29 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:13:29 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 10:32:35 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:32:35 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 10:32:35 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 11:40:03 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 11:40:03 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 11:40:03 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 13:19:32 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:19:32 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:19:32 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 13:20:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:20:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:20:39 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 13:30:54 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:30:54 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:30:54 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 13:33:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:33:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:33:39 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 13:39:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:39:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:39:23 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 13:53:44 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:53:44 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 13:53:44 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 14:12:13 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 14:12:13 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 14:12:13 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 14:15:21 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 14:15:21 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 14:15:21 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 15:50:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 15:50:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 15:50:00 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 15:52:57 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 15:52:57 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 15:52:57 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 15:58:42 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 15:58:42 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 15:58:42 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 16:06:26 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 16:06:26 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 16:06:26 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Sep-2018 20:38:02 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 20:38:02 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Sep-2018 20:38:02 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Sep-2018 05:14:26 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Sep-2018 05:14:26 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Sep-2018 05:14:26 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Sep-2018 09:07:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Sep-2018 09:07:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Sep-2018 09:07:00 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Sep-2018 19:12:28 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Sep-2018 19:12:28 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Sep-2018 19:12:28 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[14-Sep-2018 09:18:34 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Sep-2018 09:18:34 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Sep-2018 09:18:34 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Sep-2018 09:41:20 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 09:41:20 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 09:41:20 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Sep-2018 09:41:34 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 09:41:34 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 09:41:34 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Sep-2018 12:56:24 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 12:56:24 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 12:56:24 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Sep-2018 14:28:43 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 14:28:43 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 14:28:43 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Sep-2018 14:37:21 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 14:37:21 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 14:37:21 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Sep-2018 19:32:44 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 19:32:44 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Sep-2018 19:32:45 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 09:28:42 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:28:42 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:28:42 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 09:29:11 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:29:11 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:29:11 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 09:39:27 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:39:27 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:39:27 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 09:41:20 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:41:20 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 09:41:20 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 12:40:49 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:40:49 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:40:49 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 12:42:40 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:42:40 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:42:40 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 12:42:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:42:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:42:52 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 12:44:38 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:44:38 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:44:38 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 12:46:16 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:46:16 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 12:46:16 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 13:00:28 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 13:00:28 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 13:00:28 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 13:20:54 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 13:20:54 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 13:20:54 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 14:44:50 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:44:50 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:44:50 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 14:47:49 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:47:49 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:47:49 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 14:48:24 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:48:24 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:48:24 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 14:48:26 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:48:26 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:48:26 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 14:56:12 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:56:12 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:56:12 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 14:57:57 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:57:57 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:57:57 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 14:58:13 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:58:13 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 14:58:13 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 15:01:09 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:01:09 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:01:09 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 15:01:38 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:01:38 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:01:38 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 15:33:28 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:33:28 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:33:28 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 15:35:57 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:35:57 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:35:57 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 15:38:55 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:38:55 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:38:55 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 15:41:55 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:41:55 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:41:55 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 15:42:50 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:42:50 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 15:42:50 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Sep-2018 16:33:26 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 16:33:26 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 16:33:31 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 16:33:31 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Sep-2018 16:33:31 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 12:51:56 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 12:51:56 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 12:51:56 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 14:08:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:08:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:08:00 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 14:09:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:09:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:09:39 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 14:13:53 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:13:53 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:13:53 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 14:15:44 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:15:44 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:15:44 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 14:23:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:23:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:23:23 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 14:23:45 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:23:45 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:23:45 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[24-Sep-2018 14:34:15 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:34:15 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[24-Sep-2018 14:34:15 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[25-Sep-2018 09:02:36 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[25-Sep-2018 09:02:36 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[25-Sep-2018 09:02:36 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[28-Sep-2018 08:51:26 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Sep-2018 08:51:26 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Sep-2018 08:51:26 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[28-Sep-2018 09:37:02 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Sep-2018 09:37:02 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Sep-2018 09:37:02 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[01-Oct-2018 11:32:58 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[01-Oct-2018 11:32:58 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[01-Oct-2018 11:32:58 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[05-Oct-2018 09:05:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Oct-2018 09:05:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Oct-2018 09:05:08 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[05-Oct-2018 13:42:49 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Oct-2018 13:42:49 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Oct-2018 13:42:49 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Oct-2018 09:14:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 09:14:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 09:14:52 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Oct-2018 09:18:01 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 09:18:01 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 09:18:01 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Oct-2018 12:37:47 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 12:37:47 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 12:37:47 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Oct-2018 12:38:33 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 12:38:33 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Oct-2018 12:38:33 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Oct-2018 08:22:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 08:22:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 08:22:10 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Oct-2018 09:32:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 09:32:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 09:32:52 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Oct-2018 12:33:30 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 12:33:30 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 12:48:17 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 12:48:17 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 13:15:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 13:15:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 13:16:29 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 13:16:29 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 13:16:29 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Oct-2018 13:17:58 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 13:17:58 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Oct-2018 13:17:58 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[10-Oct-2018 15:50:09 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Oct-2018 15:50:09 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Oct-2018 15:50:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Oct-2018 15:50:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Oct-2018 15:50:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Oct-2018 15:50:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Oct-2018 15:50:31 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Oct-2018 15:50:31 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Oct-2018 10:38:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Oct-2018 10:38:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Oct-2018 10:38:10 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[13-Oct-2018 08:04:01 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Oct-2018 08:04:01 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Oct-2018 08:04:01 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[14-Oct-2018 07:14:03 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Oct-2018 07:14:03 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Oct-2018 07:15:31 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Oct-2018 07:15:31 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Oct-2018 07:15:31 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[15-Oct-2018 03:35:29 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 03:35:29 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 03:35:29 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[15-Oct-2018 10:03:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 10:03:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 10:03:08 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[15-Oct-2018 10:19:04 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 10:19:04 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 10:19:04 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[15-Oct-2018 10:20:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 10:20:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 10:20:07 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[15-Oct-2018 16:32:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 16:32:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Oct-2018 16:32:23 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 03:49:05 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 03:49:05 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 03:49:05 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 04:04:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 04:04:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 04:04:41 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 12:05:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 12:05:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 12:05:23 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 12:35:47 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 12:35:47 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 12:35:47 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 13:28:57 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 13:28:57 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 13:28:57 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 14:00:21 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:00:21 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:00:29 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:00:29 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:00:29 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 14:16:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:16:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:16:07 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 14:20:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:20:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:20:07 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 14:22:09 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:22:09 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:22:09 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[17-Oct-2018 14:22:35 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:22:35 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Oct-2018 14:22:35 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[18-Oct-2018 14:56:20 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Oct-2018 14:56:20 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Oct-2018 14:56:20 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[19-Oct-2018 03:15:34 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 03:15:34 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 03:15:34 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[19-Oct-2018 03:33:19 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 03:33:19 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 03:33:19 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[19-Oct-2018 03:35:44 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 03:35:44 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 03:35:44 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[19-Oct-2018 08:59:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 08:59:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 08:59:08 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[19-Oct-2018 09:00:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 09:00:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 09:00:39 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[19-Oct-2018 10:56:32 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 10:56:32 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 10:56:32 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[19-Oct-2018 15:02:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 15:02:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Oct-2018 15:02:23 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[27-Oct-2018 19:11:38 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:11:38 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:12:22 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:12:22 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:12:28 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:12:28 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:12:53 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:12:53 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:17:24 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:17:24 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:17:36 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:17:36 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:17 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:17 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:22 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:22 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:31 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:31 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:59 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:37:59 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:38:03 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:38:03 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:38:23 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:38:23 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:39:09 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:39:09 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:39:20 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:39:20 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:40:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:40:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:40:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:40:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:40:19 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:40:19 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:42:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:42:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:43:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:43:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:43:46 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:43:46 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:45:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:45:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:45:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Oct-2018 19:45:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 01:59:28 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 01:59:28 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 01:59:28 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[30-Oct-2018 13:47:47 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 13:47:47 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 13:47:47 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[30-Oct-2018 13:51:56 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 13:51:56 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 13:51:56 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[30-Oct-2018 14:25:44 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 14:25:44 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 14:25:44 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[30-Oct-2018 16:51:45 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 16:51:45 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[30-Oct-2018 16:51:45 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[31-Oct-2018 12:35:38 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 12:35:38 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 12:35:38 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[31-Oct-2018 12:45:35 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 12:45:35 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 12:45:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 12:45:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 12:45:41 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[31-Oct-2018 13:30:05 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 13:30:05 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 13:30:05 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[31-Oct-2018 14:15:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/k0762615/public_html/work-order/finance/ptjb/add-ptjb.php on line 89
+[31-Oct-2018 14:15:40 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/k0762615/public_html/work-order/finance/ptjb/add-ptjb.php on line 89
+[31-Oct-2018 15:57:16 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 15:57:16 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 15:57:16 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[31-Oct-2018 16:33:29 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 16:33:29 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 16:33:29 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[31-Oct-2018 16:58:05 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 16:58:05 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 16:58:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 16:58:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[31-Oct-2018 16:58:10 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[02-Nov-2018 06:52:18 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 06:52:18 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 06:52:18 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[02-Nov-2018 08:53:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 08:53:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 08:53:25 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[02-Nov-2018 08:58:42 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 08:58:42 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 08:58:42 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[02-Nov-2018 15:07:28 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 15:07:28 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[02-Nov-2018 15:07:28 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[05-Nov-2018 09:21:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 09:21:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 09:21:39 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[05-Nov-2018 09:21:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 09:21:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 09:21:41 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[05-Nov-2018 09:21:53 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 09:21:53 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 09:21:53 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[05-Nov-2018 14:26:55 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 14:26:55 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 14:26:55 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[05-Nov-2018 17:17:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 17:17:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[05-Nov-2018 17:17:25 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[06-Nov-2018 11:55:30 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[06-Nov-2018 11:55:30 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[06-Nov-2018 11:55:30 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[06-Nov-2018 12:22:38 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[06-Nov-2018 12:22:38 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[06-Nov-2018 12:22:38 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Nov-2018 11:22:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Nov-2018 11:22:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Nov-2018 11:22:07 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Nov-2018 17:32:42 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Nov-2018 17:32:42 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Nov-2018 17:32:42 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Nov-2018 01:55:11 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 01:55:11 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 01:55:11 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Nov-2018 13:25:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 13:25:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 13:25:41 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Nov-2018 14:14:58 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:14:58 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:15:04 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:15:04 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:15:12 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:15:12 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:17:46 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:17:46 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 14:17:46 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[08-Nov-2018 15:49:35 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 15:49:35 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[08-Nov-2018 15:49:35 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[09-Nov-2018 09:21:17 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Nov-2018 09:21:17 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[09-Nov-2018 09:21:17 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[10-Nov-2018 01:00:35 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Nov-2018 01:00:35 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Nov-2018 01:00:35 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[10-Nov-2018 01:04:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Nov-2018 01:04:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Nov-2018 01:04:39 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[11-Nov-2018 01:34:43 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[11-Nov-2018 01:34:43 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Nov-2018 09:15:37 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Nov-2018 09:15:37 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Nov-2018 09:15:37 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[13-Nov-2018 09:20:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 09:20:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 09:20:08 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[13-Nov-2018 09:43:06 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 09:43:06 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 10:06:17 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 10:06:17 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 10:37:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 10:37:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 10:37:34 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 10:37:34 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 10:37:34 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[13-Nov-2018 11:21:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 11:21:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 13:07:45 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 13:07:45 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Nov-2018 13:07:45 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[14-Nov-2018 05:27:42 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 05:27:42 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 05:28:11 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 05:28:11 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 05:28:11 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[14-Nov-2018 10:50:19 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 10:50:19 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 10:55:04 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 10:55:04 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 13:20:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 13:20:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 13:26:37 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 13:26:37 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Nov-2018 13:26:37 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[27-Nov-2018 09:01:18 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Nov-2018 09:01:18 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Nov-2018 09:01:18 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[27-Nov-2018 09:04:55 Asia/Jakarta] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/k0762615/public_html/work-order/summary/teknisi.php on line 96
+[27-Nov-2018 09:05:36 Asia/Jakarta] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/k0762615/public_html/work-order/summary/teknisi.php on line 96
+[27-Nov-2018 09:05:42 Asia/Jakarta] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/k0762615/public_html/work-order/summary/teknisi.php on line 96
+[27-Nov-2018 12:25:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Nov-2018 12:25:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Nov-2018 12:25:10 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[27-Nov-2018 12:59:22 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[27-Nov-2018 12:59:22 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:23:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:23:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:23:00 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[28-Nov-2018 13:30:02 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:30:02 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:30:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:30:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:30:08 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[28-Nov-2018 13:30:46 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:30:46 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:34:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:34:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[28-Nov-2018 13:34:14 Asia/Jakarta] PHP Notice:  Undefined index: nip in /home/k0762615/public_html/work-order/cek-login.php on line 22
+[07-Dec-2018 10:54:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 10:54:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:54:38 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:54:38 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:54:58 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:54:58 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:55:21 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:55:21 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:56:27 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 12:56:27 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 13:01:47 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 13:01:47 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 13:02:22 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 13:02:22 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 14:45:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[07-Dec-2018 14:45:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 10:29:29 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 10:29:29 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 10:55:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 10:55:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 11:15:09 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 11:15:09 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 11:19:16 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 11:19:16 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 12:16:05 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 12:16:05 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 14:01:28 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 14:01:28 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 15:41:34 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 15:41:34 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 15:44:58 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 15:44:58 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 16:28:33 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 16:28:33 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 22:50:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[10-Dec-2018 22:50:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[11-Dec-2018 11:09:54 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[11-Dec-2018 11:09:54 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 08:59:19 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 08:59:19 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 09:21:13 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 09:21:13 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 09:24:46 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 09:24:46 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 10:13:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 10:13:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 10:17:47 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 10:17:47 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 10:24:34 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 10:24:34 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:06:05 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:06:05 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:34:55 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:34:55 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:37:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:37:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:43:47 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:43:47 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:48:53 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 11:48:53 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:10:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:10:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:37:33 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:37:33 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:38:18 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:38:18 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:44:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:44:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:44:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 12:44:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 13:10:03 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 13:10:03 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 14:31:40 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 14:31:40 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 14:41:06 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 14:41:06 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 15:24:13 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 15:24:13 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 21:41:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[12-Dec-2018 21:41:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 08:22:42 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 08:22:42 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 08:31:53 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 08:31:53 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 09:19:42 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 09:19:42 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 09:31:32 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 09:31:32 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 11:22:09 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 11:22:09 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 15:05:48 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 15:05:48 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 16:29:31 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[13-Dec-2018 16:29:31 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 03:31:31 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 03:31:31 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 10:27:34 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 10:27:34 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 10:30:24 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 10:30:24 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 10:37:55 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 10:37:55 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 11:03:08 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 11:03:08 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 11:27:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 11:27:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:14:45 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:14:45 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:14:46 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:14:46 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:20:44 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:20:44 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:20:56 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 13:20:56 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 16:47:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 16:47:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 16:47:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[14-Dec-2018 16:47:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Dec-2018 01:20:40 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Dec-2018 01:20:40 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Dec-2018 01:49:20 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[15-Dec-2018 01:49:20 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:17:46 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:17:46 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:24:29 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:24:29 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:44:50 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:44:50 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:45:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:45:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:45:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:45:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:45:59 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 08:45:59 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 10:44:59 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 10:44:59 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 10:52:18 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 10:52:18 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 12:06:33 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 12:06:33 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 12:12:56 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 12:12:56 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 13:47:27 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 13:47:27 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 13:53:50 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 13:53:50 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 13:58:11 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 13:58:11 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 14:38:07 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 14:38:07 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 16:29:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 16:29:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 17:12:16 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[17-Dec-2018 17:12:16 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 01:41:50 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 01:41:50 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 08:52:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 08:52:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 09:24:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 09:24:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 10:03:52 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 10:03:52 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 10:20:01 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 10:20:01 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 12:09:30 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 12:09:30 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:07:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:07:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:13:15 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:13:15 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:26:59 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:26:59 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:27:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 13:27:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 15:06:16 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 15:06:16 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 15:22:53 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 15:22:53 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 16:27:54 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 16:27:54 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 16:29:00 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 16:29:00 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 16:55:53 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 16:55:53 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 17:03:05 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 17:03:05 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 17:06:39 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 17:06:39 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 17:07:41 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[18-Dec-2018 17:07:41 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 08:04:14 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 08:04:14 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 08:38:27 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 08:38:27 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 08:56:10 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 08:56:10 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 09:36:25 Asia/Jakarta] PHP Notice:  Undefined variable: connect in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
+[19-Dec-2018 09:36:25 Asia/Jakarta] PHP Notice:  Trying to get property of non-object in /home/k0762615/public_html/work-order/config/koneksi.php on line 10
