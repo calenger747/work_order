@@ -7,7 +7,7 @@
 
 	$con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
-	if ($connect ->connect_error) {
+	if ($con ->connect_error) {
 		die('Koneksi gagal: '.$con->connect_error);
 	}
 ?>
