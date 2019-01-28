@@ -1,6 +1,6 @@
 <?php
 
-include('koneksi.php');
+include('config/koneksi.php');
 
 $januari = '01';
 $februari = '02';

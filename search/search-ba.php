@@ -13,7 +13,7 @@
  
 $term = $_GET['term'];
  
-$query = $pdo->prepare("SELECT * FROM tbl_income WHERE no_ba like '%".$term."%'");
+$query = $pdo->prepare("SELECT * FROM tbl_income WHERE no_ba like '%".$term."%' AND ket='first'");
 $query->execute();
 $json = array();
 while($datacust = $query->fetch()) {
