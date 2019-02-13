@@ -1,0 +1,70 @@
+[18-Sep-2018 12:56:05 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 12:57:49 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 12:57:49 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'A%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 12:57:50 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AD%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 12:57:50 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADZ%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:05:30 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AD%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:05:31 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADZ%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:07:57 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'A%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:07:58 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADZ%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:11:41 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AD%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:11:41 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADZ%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:21:59 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AD%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:21:59 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADZ%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17
+[18-Sep-2018 13:39:22 Asia/Jakarta] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'adz%'' at line 1' in /home/k0762615/public_html/work-order/search/search-tekn.php:17
+Stack trace:
+#0 /home/k0762615/public_html/work-order/search/search-tekn.php(17): PDOStatement->execute()
+#1 {main}
+  thrown in /home/k0762615/public_html/work-order/search/search-tekn.php on line 17

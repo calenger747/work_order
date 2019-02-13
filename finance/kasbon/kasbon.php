@@ -41,6 +41,7 @@
                           <th>Project Name</th>
                           <th>WO ID</th>
                           <th>Technician</th>
+                          <th>Tgl Kasbon</th>
                           <th>Kasbon</th>
                           <th>Terpakai</th>
                           <th>Sisa</th>
@@ -74,6 +75,7 @@
                           <td class='td1' style='text-align: left;'>".$row['nama_project']."</td>
                           <td class='td1'>".$row['wo_id']."</td>
                           <td class='td1'>".$row['nama']."</td>
+                          <td class='td1'>".$row['tgl_jalan']."</td>
                           <td class='td1'>".$rp, number_format($jmlh, 0, ".", ".")."</td>
                           <td class='td1'>".$rp, number_format($total, 0, ".", ".")."</td>
                           <td class='td1'>".$rp, number_format($sisa, 0, ".", ".")."</td>
@@ -84,6 +86,7 @@
                           <td class='td2' style='text-align: left;'>".$row['nama_project']."</td>
                           <td class='td2'>".$row['wo_id']."</td>
                           <td class='td2'>".$row['nama']."</td>
+                          <td class='td2'>".$row['tgl_jalan']."</td>
                           <td class='td2'>".$rp, number_format($jmlh, 0, ".", ".")."</td>
                           <td class='td2'>".$rp, number_format($total, 0, ".", ".")."</td>
                           <td class='td2'>".$rp, number_format($sisa, 0, ".", ".")."</td>
@@ -94,6 +97,7 @@
                           <td class='td3' style='text-align: left;'>".$row['nama_project']."</td>
                           <td class='td3'>".$row['wo_id']."</td>
                           <td class='td3'>".$row['nama']."</td>
+                          <td class='td3'>".$row['tgl_jalan']."</td>
                           <td class='td3'>".$rp, number_format($jmlh, 0, ".", ".")."</td>
                           <td class='td3'>".$rp, number_format($total, 0, ".", ".")."</td>
                           <td class='td3'>".$rp, number_format($sisa, 0, ".", ".")."</td>

@@ -459,6 +459,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan1" class="form-control">
                                         <option hidden="" value="<?php echo $ket1; ?>"><?php echo $ket1; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -482,6 +483,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan2" class="form-control">
                                         <option hidden="" value="<?php echo $ket2; ?>"><?php echo $ket2; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -505,6 +507,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan3" class="form-control">
                                         <option hidden="" value="<?php echo $ket3; ?>"><?php echo $ket3; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -528,6 +531,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan4" class="form-control">
                                         <option hidden="" value="<?php echo $ket4; ?>"><?php echo $ket4; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -551,6 +555,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan5" class="form-control">
                                         <option hidden="" value="<?php echo $ket5; ?>"><?php echo $ket5; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -574,6 +579,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan6" class="form-control">
                                         <option hidden="" value="<?php echo $ket6; ?>"><?php echo $ket6; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -597,6 +603,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan7" class="form-control">
                                         <option hidden="" value="<?php echo $ket7; ?>"><?php echo $ket7; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -620,6 +627,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan8" class="form-control">
                                         <option hidden="" value="<?php echo $ket8; ?>"><?php echo $ket8; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -643,6 +651,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan9" class="form-control">
                                         <option hidden="" value="<?php echo $ket9; ?>"><?php echo $ket9; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 
@@ -666,6 +675,7 @@
                                        <label for="price">Keterangan</label>
                                        <select name="keterangan10" class="form-control">
                                         <option hidden="" value="<?php echo $ket10; ?>"><?php echo $ket10; ?></option>
+                                        <option value="-"> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_kasbon"); 
 

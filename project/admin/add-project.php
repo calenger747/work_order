@@ -13,10 +13,10 @@
   $tahun = date('Y');
   $nomor = "-".$tahun;
 
-    $q1 = "SELECT max(tbl_schedule_wo.kode_jadwal) as maxKode FROM tbl_schedule_wo JOIN tbl_project_wo ON tbl_project_wo.kode_jadwal = tbl_schedule_wo.kode_jadwal WHERE YEAR(tgl_project) = '$tahun' ";
+    $q1 = "SELECT max(kode_jadwal) as maxKode1 FROM tbl_schedule_wo WHERE YEAR(waktu_input) = '$tahun' ";
     $hasil1 = mysqli_query($con, $q1);
     $data1  = mysqli_fetch_array($hasil1);
-    $kodesch = $data1['maxKode'];
+    $kodesch = $data1['maxKode1'];
 
     $nosch = (int) substr($kodesch, 3, 5);
 
@@ -25,10 +25,10 @@
     $newsch = $char1 . sprintf("%05s", $nosch) . $nomor; 
 
 
-    $q2 = "SELECT max(tbl_teknisi_wo.kode_teknisi) as maxKode FROM tbl_teknisi_wo JOIN tbl_project_wo ON tbl_project_wo.kode_teknisi = tbl_teknisi_wo.kode_teknisi WHERE YEAR(tgl_project) = '$tahun' ";
+    $q2 = "SELECT max(kode_teknisi) as maxKode2 FROM tbl_teknisi_wo WHERE YEAR(time) = '$tahun' ";
     $hasil2 = mysqli_query($con, $q2);
     $data2  = mysqli_fetch_array($hasil2);
-    $kodetch = $data2['maxKode'];
+    $kodetch = $data2['maxKode2'];
 
     $notch = (int) substr($kodetch, 3, 5);
 
@@ -36,7 +36,8 @@
     $char2 = "TCH";
     $newtch = $char2 . sprintf("%05s", $notch) . $nomor; 
 
-    $q3 = "SELECT max(kode_project) as maxKode FROM tbl_project_wo WHERE YEAR(tgl_project) = '$tahun' ";
+
+    $q3 = "SELECT max(kode_project) as maxKode FROM tbl_project_wo WHERE YEAR(time) = '$tahun' ";
     $hasil3 = mysqli_query($con, $q3);
     $data3  = mysqli_fetch_array($hasil3);
     $kodepro = $data3['maxKode'];
@@ -63,6 +64,7 @@
   $p_pkl1      = isset($_POST['pkl1']) ? $_POST['pkl1'] : "";    
   $p_pkl2      = isset($_POST['pkl2']) ? $_POST['pkl2'] : "";    
   $p_pkl3      = isset($_POST['pkl3']) ? $_POST['pkl3'] : ""; 
+  $p_waktu     = date("Y-m-d H:i:s");
 
   $p_submit   = "Tambah";
 
@@ -124,12 +126,12 @@
   if (mysqli_num_rows($prosescek1) > 0) {
     echo "<script>alert('ID WO atau ID SO Sudah Digunakan'); history.go(-1) </script>";
   } else { 
-    $q_tmb = mysqli_query($con, "INSERT INTO tbl_project_wo VALUES ('', '$newpro', '$newsch', '$newtch', '$p_level', '$p_date', '$p_project', '$p_id_wo', '$p_id_so', '$p_customer', '$p_lokasi', '$p_pic', 'first')");
-    $q_tmb1 = mysqli_query($con, "INSERT INTO tbl_schedule_wo (kode_jadwal) VALUES ('$newsch')");
-    $q_tmb2 = mysqli_query($con, "INSERT INTO tbl_teknisi_wo (kode_teknisi) VALUES ('$newtch')");
+    $q_tmb = mysqli_query($con, "INSERT INTO tbl_project_wo VALUES ('', '$newpro', '$newsch', '$newtch', '$p_level', '$p_date', '$p_project', '$p_id_wo', '$p_id_so', '$p_customer', '$p_lokasi', '$p_pic', 'first','$p_waktu')");
     
-    if ($q_tmb && $q_tmb1 && $q_tmb2) {
-      echo "<div class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Tambahkan <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-folder-open'></i> Show Data</a></div>";
+    if ($q_tmb == TRUE) {
+      $q_tmb1 = mysqli_query($con, "INSERT INTO tbl_schedule_wo (kode_jadwal) VALUES ('$newsch')");
+      $q_tmb2 = mysqli_query($con, "INSERT INTO tbl_teknisi_wo (kode_teknisi) VALUES ('$newtch')");
+      echo "<div class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Tambahkan <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project&view=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-folder-open'></i> Show Data</a></div>";
     } else {
       echo "<div class='alert alert-danger'><strong>Data Gagal di Simpan ! </strong>".mysqli_error($con)." <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
     }
@@ -143,7 +145,7 @@
     $q_edt3 = mysqli_query($con, "UPDATE tbl_teknisi_wo SET teknisi1 = '$p_teknisi1', teknisi2 = '$p_teknisi2', teknisi3 = '$p_teknisi3', teknisi4 = '$p_teknisi4', pkl1 = '$p_pkl1', pkl2 = '$p_pkl2', pkl3 = '$p_pkl3' WHERE kode_teknisi = '$p_kd_tkns'");
 
     if ($q_edt1 && $q_edt2 && $q_edt3) {
-      echo "<div id='gagal' class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Edit <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-mail-reply'></i> Back</a></div>";
+      echo "<div id='gagal' class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Edit <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project&view=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-mail-reply'></i> Back</a></div>";
     } else {
       echo "<div id='gagal' class='alert alert-danger'><strong>Data Gagal di Edit ! </strong>".mysqli_error($con)." <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
     }
@@ -153,7 +155,7 @@
     $q_updt = mysqli_query($con, "UPDATE tbl_teknisi_wo SET teknisi1 = '$p_teknisi1', teknisi2 = '$p_teknisi2', teknisi3 = '$p_teknisi3', teknisi4 = '$p_teknisi4', pkl1 = '$p_pkl1', pkl2 = '$p_pkl2', pkl3 = '$p_pkl3' WHERE kode_teknisi = '$p_kd_tkns'");
 
     if ($q_upds && $q_updt) {
-      echo "<div id='gagal' class='alert alert-success'><strong>SUCCESS</strong> Detail Project Berhasil di Tambahkan <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-mail-reply'></i> Back</a></div>";
+      echo "<div id='gagal' class='alert alert-success'><strong>SUCCESS</strong> Detail Project Berhasil di Tambahkan <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project&view=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-mail-reply'></i> Back</a></div>";
     } else {
       echo "<div id='gagal' class='alert alert-danger'><strong>Data Gagal di Simpan ! </strong>".mysqli_error($con)." <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
     }
@@ -337,6 +339,7 @@
                                       <label class="control-label">Project Title</label>
                                       <select name="project" required class="form-control">
                                         <option hidden="" value="<?php echo $e_project; ?>"><?php echo $e_project; ?></option>
+                                        <option value=""> </option>
                                         <?php
                                           $q = mysqli_query($con, "SELECT * FROM project_wo"); 
 
@@ -438,6 +441,7 @@
                                       <label class="control-label">Technician Name (1)</label>
                                       <select name="teknisi1" required class="form-control">
                                         <option hidden="" value="<?php echo $e_t1; ?>"><?php echo $e_t1; ?></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -455,6 +459,7 @@
                                       <label class="control-label">Technician Name (2)</label>
                                       <select name="teknisi2" class="form-control">
                                         <option hidden="" value="<?php echo $e_t2; ?>"><?php echo $e_t2; ?></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -472,6 +477,7 @@
                                       <label class="control-label">Technician Name (3)</label>
                                       <select name="teknisi3" class="form-control">
                                         <option hidden="" value="<?php echo $e_t3; ?>"><?php echo $e_t3; ?></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -489,6 +495,7 @@
                                       <label class="control-label">Technician Name (4)</label>
                                       <select name="teknisi4" class="form-control">
                                         <option hidden="" value="<?php echo $e_t4; ?>"><?php echo $e_t4; ?></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -506,6 +513,7 @@
                                       <label class="control-label">Technician PKL (1)</label>
                                       <select name="pkl1" class="form-control">
                                         <option hidden="" value="<?php echo $e_pkl1; ?>"><?php echo $e_pkl1; ?></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 
@@ -523,6 +531,7 @@
                                       <label class="control-label">Technician PKL (2)</label>
                                       <select name="pkl2" class="form-control">
                                         <option hidden="" value="<?php echo $e_pkl2; ?>"><?php echo $e_pkl2; ?></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 
@@ -540,6 +549,7 @@
                                       <label class="control-label">Technician PKL (3)</label>
                                       <select name="pkl3" class="form-control">
                                         <option hidden="" value="<?php echo $e_pkl3; ?>"><?php echo $e_pkl3; ?></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -611,7 +621,7 @@
                                       <input type='hidden' class="form-control" name="kd_tkns" value="<?php echo $kd_teknisi; ?>" />
                                       <label class="control-label">Technician Name (1)</label>
                                       <select name="teknisi1" required class="form-control">
-                                        <option value="">Choose Technician</option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -628,7 +638,7 @@
                                   <div class="form-group">
                                       <label class="control-label">Technician Name (2)</label>
                                       <select name="teknisi2" class="form-control">
-                                        <option value="">Choose Technician</option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -645,7 +655,7 @@
                                   <div class="form-group">
                                       <label class="control-label">Technician Name (3)</label>
                                       <select name="teknisi3" class="form-control">
-                                        <option value="">Choose Technician</option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -662,7 +672,7 @@
                                   <div class="form-group">
                                       <label class="control-label">Technician Name (4)</label>
                                       <select name="teknisi4" class="form-control">
-                                        <option value="">Choose Technician</option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -679,7 +689,7 @@
                                   <div class="form-group">
                                       <label class="control-label">Technician PKL (1)</label>
                                       <select name="pkl1" class="form-control">
-                                        <option value="">Choose PKL Technician</option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 
@@ -696,7 +706,7 @@
                                   <div class="form-group">
                                       <label class="control-label">Technician PKL (2)</label>
                                       <select name="pkl2" class="form-control">
-                                        <option value="">Choose PKL Technician</option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 
@@ -713,7 +723,7 @@
                                   <div class="form-group">
                                       <label class="control-label">Technician PKL (3)</label>
                                       <select name="pkl3" class="form-control">
-                                        <option value="">Choose PKL Technician</option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 

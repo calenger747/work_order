@@ -47,6 +47,8 @@
                         $res = $con->query("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb");
                         while($row = $res->fetch_assoc()){
                           $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
+                          $price[]      = $total;
+                          $amount_total = array_sum($price);
                           $rp = "Rp. ";
                       ?>
 

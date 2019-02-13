@@ -1,8 +1,8 @@
 <?php
 //Sesuaikan config mysql nya
-    $dns 		= "mysql:host=localhost;dbname=db_pegawai";
-	$db_user 	= "root";
-	$db_pass 	= "";
+    $dns 		= "mysql:host=localhost;dbname=k0762615_pegawai";
+	$db_user 	= "k0762615_pegawai";
+	$db_pass 	= "PegawaiLrcom123!@#";
  
 	try {
         $pdo = new PDO($dns, $db_user, $db_pass, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));      
@@ -13,7 +13,7 @@
  
 $term = $_GET['term'];
  
-$query = $pdo->prepare("SELECT DISTINCT nama FROM tbl_ptjb WHERE nama like '%".$term."%'");
+$query = $pdo->prepare("SELECT * FROM tbl_pkl WHERE nama like '%".$term."%'");
 $query->execute();
 $json = array();
 while($datacust = $query->fetch()) {

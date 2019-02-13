@@ -11,10 +11,10 @@
   $tahun = date('Y');
   $nomor = "-".$tahun;
 
-    $q1 = "SELECT max(tbl_schedule_wo.kode_jadwal) as maxKode FROM tbl_schedule_wo JOIN tbl_project_wo ON tbl_project_wo.kode_jadwal = tbl_schedule_wo.kode_jadwal WHERE WHERE YEAR(tgl_project) = '$tahun' ";
+    $q1 = "SELECT max(kode_jadwal) as maxKode1 FROM tbl_schedule_wo WHERE YEAR(waktu_input) = '$tahun' ";
     $hasil1 = mysqli_query($con, $q1);
     $data1  = mysqli_fetch_array($hasil1);
-    $kodesch = $data1['maxKode'];
+    $kodesch = $data1['maxKode1'];
 
     $nosch = (int) substr($kodesch, 3, 5);
 
@@ -23,10 +23,10 @@
     $newsch = $char1 . sprintf("%05s", $nosch) . $nomor; 
 
 
-    $q2 = "SELECT max(tbl_teknisi_wo.kode_teknisi) as maxKode FROM tbl_teknisi_wo JOIN tbl_project_wo ON tbl_project_wo.kode_teknisi = tbl_teknisi_wo.kode_teknisi WHERE YEAR(tgl_project) = '$tahun' ";
+    $q2 = "SELECT max(kode_teknisi) as maxKode2 FROM tbl_teknisi_wo WHERE YEAR(time) = '$tahun' ";
     $hasil2 = mysqli_query($con, $q2);
     $data2  = mysqli_fetch_array($hasil2);
-    $kodetch = $data2['maxKode'];
+    $kodetch = $data2['maxKode2'];
 
     $notch = (int) substr($kodetch, 3, 5);
 
@@ -34,8 +34,7 @@
     $char2 = "TCH";
     $newtch = $char2 . sprintf("%05s", $notch) . $nomor; 
 
-
-    $q3 = "SELECT max(kode_project) as maxKode FROM tbl_project_wo WHERE YEAR(tgl_project) = '$tahun' ";
+    $q3 = "SELECT max(kode_project) as maxKode FROM tbl_project_wo WHERE YEAR(time) = '$tahun' ";
     $hasil3 = mysqli_query($con, $q3);
     $data3  = mysqli_fetch_array($hasil3);
     $kodepro = $data3['maxKode'];
@@ -65,6 +64,7 @@
   $p_pkl1      = isset($_POST['pkl1']) ? $_POST['pkl1'] : "";    
   $p_pkl2      = isset($_POST['pkl2']) ? $_POST['pkl2'] : "";    
   $p_pkl3      = isset($_POST['pkl3']) ? $_POST['pkl3'] : ""; 
+  $p_waktu     = date("Y-m-d H:i:s");
 
   $new = date("y.m.d.i.s");
   $newwo = '-'.$new;
@@ -79,13 +79,14 @@
   } 
 
   if ($p_tombol == "Update") {
+      
+    $q_tmb2 = mysqli_query($con, "INSERT INTO tbl_teknisi_wo VALUES ('$newtch', '$p_teknisi1', '$p_teknisi2', '$p_teknisi3', '$p_teknisi4', '$p_pkl1', '$p_pkl2', '$p_pkl3','$p_waktu')");
 
-    $q_tmb = mysqli_query($con, "INSERT INTO tbl_project_wo VALUES ('', '$newpro', '$newsch', '$newtch', '$p_level', '$p_date', '$p_project', '$p_id_wo$newwo', '$p_id_so', '$p_customer', '$p_lokasi', '$p_pic', '')");
-    $q_tmb1 = mysqli_query($con, "INSERT INTO tbl_schedule_wo VALUES ('$newsch', '$p_jadwal')");
-    $q_tmb2 = mysqli_query($con, "INSERT INTO tbl_teknisi_wo VALUES ('$newtch', '$p_teknisi1', '$p_teknisi2', '$p_teknisi3', '$p_teknisi4', '$p_pkl1', '$p_pkl2', '$p_pkl3')");
+    $q_tmb = mysqli_query($con, "INSERT INTO tbl_project_wo VALUES ('', '$newpro', '$newsch', '$newtch', '$p_level', '$p_date', '$p_project', '$p_id_wo$newwo', '$p_id_so', '$p_customer', '$p_lokasi', '$p_pic', '','$p_waktu')");
+    $q_tmb1 = mysqli_query($con, "INSERT INTO tbl_schedule_wo VALUES ('$newsch', '$p_jadwal','$p_waktu')");
     
     if ($q_tmb && $q_tmb1 && $q_tmb2) {
-      echo "<div class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Update <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-folder-open'></i> Show Data</a></div>";
+      echo "<div class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Update <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=project&view=project' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-folder-open'></i> Show Data</a></div>";
     } else {
       echo "<div class='alert alert-danger'><strong>Data Gagal di Update! </strong>".mysqli_error($con)." <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
     }
@@ -197,7 +198,7 @@
                                       <label for="project">Technicians</label><br>
                                         <div class="col-sm-3">
                                         <select name="t1" required class="form-control" >
-                                        <option hidden="" value=""></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -211,7 +212,7 @@
                                         </div>
                                         <div class="col-sm-3">
                                         <select name="t2" class="form-control" >
-                                        <option hidden="" value=""></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -223,7 +224,7 @@
                                         </div>
                                         <div class="col-sm-3">
                                         <select name="t3" class="form-control">
-                                        <option hidden="" value=""></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -235,7 +236,7 @@
                                         </div>
                                         <div class="col-sm-3">
                                         <select name="t4" class="form-control">
-                                        <option hidden="" value=""></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
 
@@ -250,7 +251,7 @@
                                       <label for="project">Apprentice Technicians</label><br>
                                         <div class="col-sm-4">
                                         <select name="pkl1" class="form-control">
-                                        <option hidden="" value=""></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 
@@ -262,7 +263,7 @@
                                         </div>
                                         <div class="col-sm-4">
                                         <select name="pkl2" class="form-control">
-                                        <option hidden="" value=""></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 
@@ -274,7 +275,7 @@
                                         </div>
                                         <div class="col-sm-4">
                                         <select name="pkl3" class="form-control">
-                                        <option hidden="" value=""></option>
+                                        <option value=""> </option>
                                           <?php
                                         $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 

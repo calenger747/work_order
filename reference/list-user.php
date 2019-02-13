@@ -40,8 +40,8 @@
     if ($ketemu > 0) {
       $cek_nip2 = mysqli_query($con, "SELECT * FROM tbl_user_wo WHERE id = '$p_nip'");
       $ketemu2  = mysqli_num_rows($cek_nip2);
-      if ($ketemu2 > 0) {
-        echo "<div id='gagal' class='alert alert-danger'><strong>SORRY! </strong>NIP Pegawai Sudah Terdaftar <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
+      if ($ketemu2 > 1) {
+        echo "<div id='gagal' class='alert alert-danger'><strong>SORRY! </strong>NIP Pegawai Tidak Terdaftar <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
       } else {
         if ($p_password == $p_cpassword) {
           $q_tmb = mysqli_query($con, "INSERT INTO tbl_user_wo (id, username, password, level) VALUES('$p_nip','$p_username','$p_password','$p_level')");

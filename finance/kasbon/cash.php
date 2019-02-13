@@ -45,6 +45,7 @@
                           <th>Project Name</th>
                           <th>WO ID</th>
                           <th>Technician</th>
+                          <th>Tgl Kasbon</th>
                           <th>Kasbon</th>
                           <th>Terpakai</th>
                           <th>Sisa</th>
@@ -73,6 +74,7 @@
                           <td style="text-align: left;"><?php echo $row['nama_project']; ?></td>
                           <td><?php echo $row['wo_id']; ?></td>
                           <td><?php echo $row['nama']; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
                           <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
@@ -115,6 +117,7 @@
                           <th>Project Name</th>
                           <th>WO ID</th>
                           <th>Technician</th>
+                          <th>Tgl Kasbon</th>
                           <th>Kasbon</th>
                           <th>Terpakai</th>
                           <th>Sisa</th>
@@ -143,6 +146,7 @@
                           <td style="text-align: left;"><?php echo $row['nama_project']; ?></td>
                           <td><?php echo $row['wo_id']; ?></td>
                           <td><?php echo $row['nama']; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
                           <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
@@ -185,6 +189,7 @@
                           <th>Project Name</th>
                           <th>WO ID</th>
                           <th>Technician</th>
+                          <th>Tgl Kasbon</th>
                           <th>Kasbon</th>
                           <th>Terpakai</th>
                           <th>Sisa</th>
@@ -212,6 +217,7 @@
                           <td style="text-align: left;"><?php echo $row['nama_project']; ?></td>
                           <td><?php echo $row['wo_id']; ?></td>
                           <td><?php echo $row['nama']; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
                           <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>

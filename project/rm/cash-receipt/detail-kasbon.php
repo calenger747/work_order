@@ -185,7 +185,7 @@
                             </tr>
                         </table>
 
-                        <a href="?id=cash-receipt&mod=ptjb"><button type="button" class="btn btn-primary">BACK</button></a>
+                        <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
                         </form>
                         </div>
                       </div>

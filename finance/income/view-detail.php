@@ -76,7 +76,7 @@
               }
 
     } elseif ($mod == "detail") {
-      $d_tampil     = mysqli_query($con, "SELECT * FROM tbl_kode_income join tbl_income on tbl_income.kd_income = tbl_kode_income.kd_income join tbl_income_detail on tbl_income_detail.kd_detail = tbl_kode_income.kd_detail WHERE id_income = '$id_daftar'");
+      $d_tampil     = mysqli_query($con, "SELECT * FROM tbl_kode_income join tbl_income on tbl_income.kd_income = tbl_kode_income.kd_income join tbl_income_detail on tbl_income_detail.kd_detail = tbl_kode_income.kd_detail WHERE id_income = '$id_daftar_g'");
       $d_lihat      = mysqli_fetch_array($d_tampil);
       $did_daftar   = $d_lihat['id_income'];
       $dkd_income   = $d_lihat['kd_income'];
@@ -216,7 +216,7 @@
                         </table>
                         </div>
 
-                        <a href="?id=income"><button type="button" class="btn btn-primary">BACK</button></a>
+                        <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
                         </form>
                         </div>
                       </div>
@@ -362,6 +362,7 @@
                         </table>
                         </form>
                         </div>
+                        <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
                       </div>
                     </div>
                   </div>
@@ -492,6 +493,7 @@
                         </table>
                         </form>
                         </div>
+                        <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
                       </div>
                     </div>
                   </div>

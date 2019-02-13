@@ -187,7 +187,94 @@
 
 
                   </div>
+                  <div class="x_content">
+                    <div class="card">
+                      <h3><b>Kasbon</b></h3><hr>
+                      <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                      <thead>
+                        <tr>
+                          <th>No.</th>
+                          <th>Tanggal Kasbon</th>
+                          <th>ID WO</th>
+                          <th>ID SO</th>
+                          <th>Total Kasbon</th>
+                          <th>Total Terpakai</th>
+                          <th>Total Sisa</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <?php
+                          
+                          $no = 1;
+                          $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount where wo_id = '$p_id_wo' AND so_id = '$p_id_so'");
+                          while($row = $res->fetch_assoc()){
+                            $rp = "Rp. ";
+                            $jmlh = $row['jmlh_amount'];
+                            $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
+                            $sisa = $jmlh - $total;
+                        ?>
+
+                        <tr>
+                          <td><?php echo $no; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
+                          <td><?php echo $row['wo_id']; ?></td>
+                          <td><?php echo $row['so_id']; ?></td>
+                          <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
+                          <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
+                          <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
+                          <td>
+                            <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n=<?php echo $row['id_kasbon'];?>"><span class="fa fa-list"></span></a>  
+                          </td>
+                        </tr>
+                        <?php $no++; } ?>
+                      </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="x_content">
+                    <div class="card">
+                      <h3><b>PTJB</b></h3><hr>
+                      <table id="dataTables" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                        <thead>
+                          <tr>
+                            <th>No.</th>
+                            <th>Tanggal Kasbon</th>
+                            <th>ID WO</th>
+                            <th>ID SO</th>
+                            <th>Total Terpakai</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <?php
+                             
+                            $no = 1;
+                            $res = $con->query("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb where wo_id = '$p_id_wo' AND so_id = '$p_id_so'");
+                            while($row = $res->fetch_assoc()){
+                              $rp = "Rp. ";
+                              $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
+                          ?>
+
+                          <tr>
+                            <td><?php echo $no; ?></td>
+                            <td><?php echo $row['date_now']; ?></td>
+                            <td><?php echo $row['wo_id']; ?></td>
+                            <td><?php echo $row['so_id']; ?></td>
+                            <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
+                            <td>
+                              <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-ptjb&mod=view&id_n=<?php echo $row['id_ptjb'];?>"><span class="fa fa-list"></a>  
+                            </td>
+                          </tr>
+                          <?php $no++; } ?>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
                 </div>
-                <a href="?id=project&view=project"><button type="button" class="btn btn-primary">BACK</button></a>
+                <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
               </div>
         </div>

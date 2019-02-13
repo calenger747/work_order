@@ -31,7 +31,7 @@
           echo "Bulan Kosong";
         }
   header("Content-type: application/vnd-ms-excel");
-  header("Content-Disposition: attachment; filename=Book Of Life - ". $bulan. " ".$p_tahun.".xls");
+  header("Content-Disposition: attachment; filename=Report Income - ". $bulan. " ".$p_tahun.".xls");
 ?>
 <style type="text/css">
   table,th,td{
@@ -44,7 +44,7 @@
 </style>
 <div style="text-align: center;">
 	<br>
-	<span style="margin-left: 20px;font-size: 20px;"><b>BOOK OF LIVE</b></span>
+	<span style="margin-left: 20px;font-size: 20px;"><b>REPORT INCOME</b></span>
 </div>
 <div style="text-align: center;">
   <span style="margin-left: 20px;font-size: 20px;"><b>PT. LUMBUNG RIANG COMMUNICATION</b></span>
@@ -56,26 +56,24 @@
   <thead>
     <tr>
       <th>NO</th>
-      <th>TANGGAL</th>
-      <th>PROJECT</th>
-      <th>CUSTOMER</th>
-      <th>IDWO</th>
+      <th>WO ID</th>
       <th>SO</th>
-      <th>PIC INDOSAT</th>
-      <th>LOCATION</th>
-      <th>TECHNICIAN</th>
-      <th>KETERANGAN</th>
-      <th>STATUS</th>
-      <th>CID</th>
-      <th>Harga</th>
-      <th>NO BOQ</th>
       <th>NO BA</th>
+      <th>NO BOQ</th>
+      <th>TGL BA</th>
+      <th>DESKRIPSI</th>
+      <th>PM</th>
+      <th>PRICE</th>
+      <th>VERIFIKASI</th>
       <th>NO PB</th>
-      <th>NO PO</th>
+      <th>PB DATE</th>
+      <th>HANDOVER / SC</th>
+      <th>PO NO</th>
       <th>NO INVOICE</th>
-      <th>PAID</th>
-      <th>TGL INV</th>
+      <th>PAYMENT STATUS</th>
+      <th>PAYMENT DATE</th>
       <th>FINAL STATUS</th>
+      <th>NOTES</th>
     </tr>
   </thead>
   <tbody>
@@ -88,32 +86,39 @@
         include('../config/koneksi.php');
 
         $no = 1;
-        $res = $con->query("SELECT * FROM tbl_project_wo JOIN tbl_schedule_wo ON tbl_project_wo.kode_jadwal = tbl_schedule_wo.kode_jadwal JOIN tbl_teknisi_wo ON tbl_project_wo.kode_teknisi = tbl_teknisi_wo.kode_teknisi JOIN tbl_income ON tbl_project_wo.wo_id = tbl_income.wo_id JOIN tbl_kode_income ON tbl_kode_income.kd_income  =tbl_income.kd_income JOIN tbl_income_detail ON tbl_kode_income.kd_detail = tbl_income_detail.kd_detail WHERE month(tgl_project) = '$p_bulan' AND year(tgl_project) = '$p_tahun'");
+        $res = $con->query("SELECT * FROM tbl_project_wo JOIN tbl_income ON tbl_project_wo.wo_id = tbl_income.wo_id JOIN tbl_kode_income ON tbl_kode_income.kd_income  =tbl_income.kd_income JOIN tbl_income_detail ON tbl_kode_income.kd_detail = tbl_income_detail.kd_detail WHERE month(tbl_income.waktu_input) = '$p_bulan' AND year(tbl_income.waktu_input) = '$p_tahun'");
         while($row = $res->fetch_assoc()){
           $rp = "Rp. ";
+          $ba = $row['no_ba'];
+          $sql = $con->query("SELECT * FROM tbl_income where no_ba = '$ba' AND month(tbl_income.waktu_input) = '$p_bulan' AND year(tbl_income.waktu_input) = '$p_tahun'");
+            while($data = $sql->fetch_assoc()){
+              $price[] = $data['price'];
+              $amount = array_sum($price);
+            }
+
     ?>
     <tr>
       <td><?php echo $no; ?></td>
-      <td><?php echo tgl_indo($row['tgl_project']); ?></td>
-      <td><?php echo $row['project_title']; ?></td>
-      <td><?php echo $row['customer']; ?></td>
       <td><?php echo $row['wo_id']; ?></td>
       <td><?php echo $row['so_id']; ?></td>
-      <td><?php echo $row['pic']; ?></td>
-      <td><?php echo $row['lokasi']; ?></td>
-      <td><?php echo $row['teknisi1'], ", ", $row['teknisi2'], ", ", $row['teknisi3'], ", ", $row['teknisi4'], ", ", $row['pkl1'], ", ", $row['pkl2'], ", ", $row['pkl3'], ", "; ?> </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><?php echo $rp, number_format($row['price'], 0, ".", "."); ?></td>
-      <td><?php echo $row['no_boq']; ?></td>
       <td><?php echo $row['no_ba']; ?></td>
+      <td><?php echo $row['no_boq']; ?></td>
+      <td><?php echo tgl_indo($row['tglba']); ?></td>
+      <td><?php echo $row['deskripsi']; ?></td>
+      <td><?php echo $row['pm']; ?> </td>
+      <td><?php echo $rp, number_format($row['price'], 0, ".", "."); ?></td>
+      <td><?php echo $row['verifikasi']; ?></td>
       <td><?php echo $row['no_pb']; ?></td>
+      <td><?php echo tgl_indo($row['pb_date']); ?></td>
+      <td><?php echo $row['handover']; ?></td>
       <td><?php echo $row['po_no']; ?></td>
+      <td><?php echo tgl_indo($row['po_date']); ?></td>
+      <td><?php echo $row['req_gr']; ?></td>
       <td><?php echo $row['inv_no']; ?></td>
       <td><?php echo $row['pay_stat']; ?></td>
       <td><?php echo tgl_indo($row['pay_date']); ?></td>
-      <td></td>
+      <td><?php echo $row['final_stat']; ?></td>
+      <td><?php echo $row['notes']; ?></td>
     </tr>
     <?php
         $no++;
@@ -121,4 +126,10 @@
     }
   ?>
   </tbody>
+  <tfoot>
+    <tr style="background-color: yellow;">
+      <th colspan="15"><h3>TOTAL PRICE : </h3></th>
+      <th colspan="6"><h3><?php echo $rp, number_format($amount, 0, ".", "."); ?></h3>
+    </tr>
+  </tfoot>
 </table>

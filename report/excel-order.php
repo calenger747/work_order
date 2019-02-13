@@ -31,7 +31,7 @@
           echo "Bulan Kosong";
         }
   header("Content-type: application/vnd-ms-excel");
-  header("Content-Disposition: attachment; filename=Book Of Life - ". $bulan. " ".$p_tahun.".xls");
+  header("Content-Disposition: attachment; filename=Report Schedule Order - ". $bulan. " ".$p_tahun.".xls");
 ?>
 <style type="text/css">
   table,th,td{
@@ -44,7 +44,7 @@
 </style>
 <div style="text-align: center;">
 	<br>
-	<span style="margin-left: 20px;font-size: 20px;"><b>BOOK OF LIVE</b></span>
+	<span style="margin-left: 20px;font-size: 20px;"><b>REPORT ORDER</b></span>
 </div>
 <div style="text-align: center;">
   <span style="margin-left: 20px;font-size: 20px;"><b>PT. LUMBUNG RIANG COMMUNICATION</b></span>
@@ -63,19 +63,9 @@
       <th>SO</th>
       <th>PIC INDOSAT</th>
       <th>LOCATION</th>
+      <th>SCHEDULE</th>
       <th>TECHNICIAN</th>
-      <th>KETERANGAN</th>
-      <th>STATUS</th>
-      <th>CID</th>
-      <th>Harga</th>
-      <th>NO BOQ</th>
-      <th>NO BA</th>
-      <th>NO PB</th>
-      <th>NO PO</th>
-      <th>NO INVOICE</th>
-      <th>PAID</th>
-      <th>TGL INV</th>
-      <th>FINAL STATUS</th>
+      <th>PKL TECHNICIAN</th>
     </tr>
   </thead>
   <tbody>
@@ -88,9 +78,9 @@
         include('../config/koneksi.php');
 
         $no = 1;
-        $res = $con->query("SELECT * FROM tbl_project_wo JOIN tbl_schedule_wo ON tbl_project_wo.kode_jadwal = tbl_schedule_wo.kode_jadwal JOIN tbl_teknisi_wo ON tbl_project_wo.kode_teknisi = tbl_teknisi_wo.kode_teknisi JOIN tbl_income ON tbl_project_wo.wo_id = tbl_income.wo_id JOIN tbl_kode_income ON tbl_kode_income.kd_income  =tbl_income.kd_income JOIN tbl_income_detail ON tbl_kode_income.kd_detail = tbl_income_detail.kd_detail WHERE month(tgl_project) = '$p_bulan' AND year(tgl_project) = '$p_tahun'");
+        $res = $con->query("SELECT * FROM tbl_project_wo JOIN tbl_schedule_wo ON tbl_project_wo.kode_jadwal = tbl_schedule_wo.kode_jadwal JOIN tbl_teknisi_wo ON tbl_project_wo.kode_teknisi = tbl_teknisi_wo.kode_teknisi WHERE month(tgl_project) = '$p_bulan' AND year(tgl_project) = '$p_tahun'");
         while($row = $res->fetch_assoc()){
-          $rp = "Rp. ";
+
     ?>
     <tr>
       <td><?php echo $no; ?></td>
@@ -101,19 +91,9 @@
       <td><?php echo $row['so_id']; ?></td>
       <td><?php echo $row['pic']; ?></td>
       <td><?php echo $row['lokasi']; ?></td>
-      <td><?php echo $row['teknisi1'], ", ", $row['teknisi2'], ", ", $row['teknisi3'], ", ", $row['teknisi4'], ", ", $row['pkl1'], ", ", $row['pkl2'], ", ", $row['pkl3'], ", "; ?> </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><?php echo $rp, number_format($row['price'], 0, ".", "."); ?></td>
-      <td><?php echo $row['no_boq']; ?></td>
-      <td><?php echo $row['no_ba']; ?></td>
-      <td><?php echo $row['no_pb']; ?></td>
-      <td><?php echo $row['po_no']; ?></td>
-      <td><?php echo $row['inv_no']; ?></td>
-      <td><?php echo $row['pay_stat']; ?></td>
-      <td><?php echo tgl_indo($row['pay_date']); ?></td>
-      <td></td>
+      <td><?php echo $row['tgl']; ?></td>
+      <td><?php echo $row['teknisi1'], ", ", $row['teknisi2'], ", ", $row['teknisi3'], ", ", $row['teknisi4']; ?> </td>
+      <td><?php echo $row['pkl1'], ", ", $row['pkl2'], ", ", $row['pkl3']; ?> </td>
     </tr>
     <?php
         $no++;

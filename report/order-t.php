@@ -9,7 +9,7 @@
       <div class="clearfix"></div>
     </div>
     <div class="x_content">
-      <form class="form-horizontal" action="report/Book-Of-Live.php" method="post"  role="form">
+      <form class="form-horizontal" action="report/excel-order.php" method="post"  role="form">
         <div class="panel panel-primary setup-content">
           <div class="panel-heading">
           <h3 class="panel-title">Lihat Order per-Bulan</h3>

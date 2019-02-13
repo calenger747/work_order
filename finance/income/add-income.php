@@ -14,7 +14,7 @@
   $tahun = date('Y');
   $nomor = "-".$tahun;
 
-  $query1 = "SELECT max(kd_income) as maxKode FROM tbl_income WHERE year(waktu_input)='$tahun'";
+  $query1 = "SELECT max(kd_income) as maxKode FROM tbl_kode_income WHERE YEAR(time) = '$tahun'";
   $hasil1 = mysqli_query($con, $query1);
   $data1 = mysqli_fetch_array($hasil1);
   $kodeinc = $data1['maxKode'];
@@ -25,16 +25,17 @@
   $char1 = "INC";
   $newinc = $char1 . sprintf("%05s", $noinc) . $nomor;
 
-  $query2 = "SELECT max(kd_detail) as maxKode FROM tbl_income_detail WHERE year(waktu_input) = '$tahun'";
+  $query2 = "SELECT max(kd_detail) as maxKode1 FROM tbl_kode_income WHERE YEAR(time) = '$tahun' ";
   $hasil2 = mysqli_query($con, $query2);
   $data2 = mysqli_fetch_array($hasil2);
-  $kodedtl = $data2['maxKode'];
+  $kodedtl = $data2['maxKode1'];
 
   $nodtl = (int) substr($kodedtl, 3, 5);
 
   $nodtl++;
   $char2 = "DTL";
   $newdtl = $char2 . sprintf("%05s", $nodtl) . $nomor;
+  
   
   $p_waktu     = date("Y-m-d H:i:s");  
   $p_id_wo     = isset($_POST['wo']) ? $_POST['wo'] : "";
@@ -109,9 +110,9 @@
   if (mysqli_num_rows($prosescek) > 0) { 
       echo "<script>alert('No BOQ sudah digunakan'); history.go(-1) </script>";
   } else {
-    $q_tmb1 = mysqli_query($con, "INSERT INTO tbl_income VALUES ('$newinc', '$p_id_wo', '$p_id_so', '$p_ba', '$p_boq', '$p_tglba', '$p_desk', '$p_pm', '$p_price', '$p_waktu', 'first')");
-    $q_tmb2 = mysqli_query($con, "INSERT INTO tbl_kode_income VALUES ('', '$newinc', '$newdtl')");
-    $q_tmb3 = mysqli_query($con, "INSERT INTO tbl_income_detail (kd_detail, waktu_input) VALUES ('$newdtl','$p_waktu')");
+    $q_tmb1 = mysqli_query($con, "INSERT INTO tbl_income VALUES ('','$newinc', '$p_id_wo', '$p_id_so', '$p_ba', '$p_boq', '$p_tglba', '$p_desk', '$p_pm', '$p_price', '$p_waktu', 'first')");
+    $q_tmb2 = mysqli_query($con, "INSERT INTO tbl_kode_income (kd_income, kd_detail, time) VALUES ('$newinc', '$newdtl', '$p_waktu')");
+    $q_tmb3 = mysqli_query($con, "INSERT INTO tbl_income_detail (kd_detail) VALUES ('$newdtl')");
     
     if ($q_tmb1 == true && $q_tmb2 == true && $q_tmb3 == true) {
       echo "<div class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Update <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=income' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-folder-open'></i> Show Data</a></div>";

@@ -275,14 +275,14 @@
 
                         <tr>
                           <td><?php echo $no; ?></td>
-                          <td><?php echo $row['tgl_input']; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
                           <td><?php echo $row['wo_id']; ?></td>
                           <td><?php echo $row['so_id']; ?></td>
                           <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
                           <td>
-                            <a data-rel="tooltip" title="View Detail" class="blue" href="?id=report-income-ex&mod=detail-kasbon&id_n=<?php echo $row['id_kasbon'];?>"><span class="fa fa-list"></span></a>  
+                            <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n=<?php echo $row['id_kasbon'];?>"><span class="fa fa-list"></span></a>  
                           </td>
                         </tr>
                         <?php $no++; } ?>
@@ -323,7 +323,7 @@
                             <td><?php echo $row['so_id']; ?></td>
                             <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                             <td>
-                              <a data-rel="tooltip" title="View Detail" class="blue" href="?id=report-income-ex&mod=detail-ptjb&id_n=<?php echo $row['id_ptjb'];?>"><span class="fa fa-list"></a>  
+                              <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-ptjb&mod=view&id_n=<?php echo $row['id_ptjb'];?>"><span class="fa fa-list"></a>  
                             </td>
                           </tr>
                           <?php $no++; } ?>
@@ -332,6 +332,6 @@
                     </div>
                   </div>
                 </div>
-                <a href="?id=project"><button type="button" class="btn btn-primary">BACK</button></a>
+                <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
               </div>
         </div>

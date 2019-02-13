@@ -16,7 +16,8 @@
       $p_id_wo      = $p_lihat['wo_id'];
       $p_id_so      = $p_lihat['so_id'];
       $p_project    = $p_lihat['project_title'];  
-      $p_vr         = $p_lihat['no_vr'];       
+      $p_vr         = $p_lihat['no_vr'];
+      $p_jalan      = $p_lihat['tgl_jalan'];
       $p_today      = $p_lihat['tgl_input'];  
       $p_nama       = $p_lihat['nama'];   
       $p_bon        = $p_lihat['st_bon'];   
@@ -84,7 +85,7 @@
                             <tr>
                               <th style="text-align: left; width: 20%;">Tanggal Kasbon</th>
                               <td style="text-align: left; width: 5%;">:</td>
-                              <td style="text-align: left; width: 75%;"><?php echo $p_today; ?></td>
+                              <td style="text-align: left; width: 75%;"><?php echo $p_jalan; ?></td>
                             </tr>
 
                             <tr>
@@ -185,7 +186,7 @@
                             </tr>
                         </table>
 
-                        <a href="?id=cash-receipt&mod=ptjb"><button type="button" class="btn btn-primary">BACK</button></a>
+                        <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
                         </form>
                         </div>
                       </div>
