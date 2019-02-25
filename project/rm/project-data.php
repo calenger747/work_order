@@ -5,6 +5,7 @@
 
   $mod      = isset($_GET['mod']) ? $_GET['mod'] : NULL;
   $id_del     = isset($_GET['id_n']) ? $_GET['id_n'] : NULL;
+  $tampil     = isset($_GET['view']) ? $_GET['view'] : NULL;
 
   if ($mod == "del") {
     $q_del = mysqli_query($con, "DELETE FROM tbl_project_wo WHERE kode_project = '$id_del'");
@@ -40,7 +41,7 @@
                   </div>
                   <div class="x_content">
                     
-                    <table id="datatable-buttons" class="table table-striped table-bordered table-responsive table-hover">
+                    <!-- <table id="datatable-buttons" class="table table-striped table-bordered table-responsive table-hover">
                       <thead>
                         <tr>
                           <th>NO</th>
@@ -79,9 +80,38 @@
                         </tr>
                     <?php $no++; } ?>
                       </tbody>
-                    </table>
+                    </table> -->
+
+                    <!--Ajax Processing  -->
+                       <div class="table-responsive">
+                        <table id="example-1" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>NO</th>
+                                    <th>Project Date Received</th>
+                                    <th>Project Name</th>
+                                    <th>Customer</th>
+                                    <th>WO ID</th>
+                                    <th>SO ID</th>
+                                    <th>Schedule</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div>
                   </div>
                 </div>
               </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example-1').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=rm-project",
+      } );
+  } );
+</script>
       
               

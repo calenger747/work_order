@@ -1,4 +1,11 @@
-
+<?php
+  if (isset($_GET['kirim_daftar'])) {
+    $p_bulan     = $_GET['bulan'];
+    $p_tahun     = $_GET['tahun'];
+    $url         = $_GET['id'];
+    $view        = $_GET['view'];       
+  }
+?>
 <div class="col-md-12 col-sm-12 col-xs-12">
   <div class="x_panel">
     <div class="x_title">
@@ -10,13 +17,15 @@
       <div class="clearfix"></div>
     </div>
     <div class="x_content">
-      <form class="form-horizontal" action="?id=project&view=order-w-t" method="post"  role="form">
+      <form class="form-horizontal" action="?id=project&view=order-w-t" method="get"  role="form">
         <div class="panel panel-primary setup-content">
           <div class="panel-heading">
           <h3 class="panel-title">Lihat Order per-Bulan</h3>
           </div>
           <div class="panel-body">
             <div class="form-group">
+              <input type="hidden" name="id" value="project">
+              <input type="hidden" name="view" value="order-w-t">
               <div class="col-xs-12 col-lg-6">
                 <label for="wo">Bulan</label>
                 <select class="form-control" name="bulan" required>
