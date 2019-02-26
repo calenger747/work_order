@@ -75,7 +75,7 @@ if ($tampil == 'project') {
                                             <a data-rel="tooltip" title="Edit Data" class="green" href="?id=add-project&mod=edit&id_n='.$value->id_project.'">
                                               <span class="fa fa-edit">
                                             </a>
-                                            <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=project&mod=del&id_n='.$value->kode_project.'">
+                                            <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=project&view=project&mod=del&id_n='.$value->kode_project.'">
                                               <span class="fa fa-trash-o">
                                             </a>';
             } else {
@@ -91,7 +91,7 @@ if ($tampil == 'project') {
                                             <a data-rel="tooltip" title="Edit Data" class="green" href="?id=add-project&mod=edit&id_n='.$value->id_project.'">
                                               <span class="fa fa-edit">
                                             </a>
-                                            <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=project&mod=del&id_n='.$value->kode_project.'">
+                                            <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=project&view=project&mod=del&id_n='.$value->kode_project.'">
                                               <span class="fa fa-trash-o">
                                             </a>';
             }
