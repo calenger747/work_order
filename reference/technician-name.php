@@ -28,7 +28,7 @@
 
                   <div class="x_content">
                     
-                    <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap table-hover">
+                    <!-- <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap table-hover">
                       <thead>
                         <tr>
                           <th>NIK</th>
@@ -60,21 +60,35 @@
                    
                         ?>
                       </tbody>
-                    </table>
+                    </table> -->
+
+                    <!--Ajax Processing  -->
+                       <div class="table-responsive">
+                        <table id="datatable-responsive" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>NIK</th>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Email</th>
+                                    <th>No. Handphone</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div>
                   </div>
                 </div>
               </div>
 
    <!-- Modal -->
-  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <!-- <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Detail Data Technician</h4>
         </div>
-        <!-- memulai untuk konten dinamis -->
-        <!-- lihat id="data_siswa", ini yang di pangging pada ajax di bawah -->
+
         <div class="modal-body" id="data_siswa">
         </div>
       </div>
@@ -126,4 +140,15 @@ $(document).ready(function(){
                 );
             });
         });
-    </script>
+    </script> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=technician",
+      } );
+  } );
+</script>

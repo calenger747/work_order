@@ -29,7 +29,7 @@
                   </div>
                   <div class="x_content">
                     
-                    <table id="datatable-buttons" class="table table-striped table-bordered table-responsive table-hover">
+                    <!-- <table id="datatable-buttons" class="table table-striped table-bordered table-responsive table-hover">
                       <thead>
                         <tr>
                           <th>NO</th>
@@ -87,9 +87,58 @@
                           <th colspan="2"><h3><?php echo $rp, number_format($amount, 0, ".", "."); ?></h3></th>
                         </tr>
                       </thead>
-                    </table>
+                    </table> -->
+
+                    <!--Ajax Processing  -->
+                       <div class="table-responsive">
+                        <table id="example" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>NO</th>
+                                    <th>Nomor BA</th>
+                                    <th>Tanggal BA</th>
+                                    <th>Deskripsi</th>
+                                    <th>PM</th>
+                                    <th>Notes</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+
+                            <tfoot>
+                              <?php
+                              $no = 1;
+                              $res = $con->query("SELECT * FROM tbl_kode_income join tbl_income on tbl_income.kd_income = tbl_kode_income.kd_income join tbl_income_detail on tbl_income_detail.kd_detail = tbl_kode_income.kd_detail WHERE ket = 'first'");
+                              while($row = $res->fetch_assoc()){
+                                $ba = $row['no_ba'];
+                                $sql = $con->query("SELECT * FROM tbl_income where no_ba = '$ba'");
+                                while($data = $sql->fetch_assoc()){
+                                  $rp = "Rp. ";
+                                  $price[] = $data['price'];
+                                  $nominal[] = $data['price'];
+                                  $amount = array_sum($price);
+                                  $p_nominal = array_sum($nominal);
+                                }
+                              }
+                            ?>
+                              <tr>
+                                <th colspan="5"><h3>Total BA : </h3></th>
+                                <th colspan="2"><h3><?php echo $rp, number_format($amount, 0, ".", "."); ?></h3></th>
+                              </tr>
+                            </tfoot>
+                          </table>
+                        </div>
                   </div>
                 </div>
               </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=income-list",
+      } );
+  } );
+</script>
       
               

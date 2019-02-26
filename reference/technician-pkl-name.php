@@ -42,16 +42,16 @@
                       <tbody>
                         <?php 
 
-                          $query=mysqli_query($con,"SELECT * FROM pegawai, bagian WHERE pegawai.id_bag = bagian.kd_bag AND pegawai.kdstatusp = '3'") or die(mysqli_error($con));
+                          $query=mysqli_query($con,"SELECT * FROM tbl_pegawai JOIN tbl_jabatan ON tbl_pegawai.id_jabatan = tbl_jabatan.id_jabatan JOIN tbl_data_jabatan ON tbl_jabatan.jabatan = tbl_data_jabatan.kode_jabatan JOIN tbl_status ON tbl_pegawai.id_status = tbl_status.id_status JOIN tbl_data_status_pegawai ON tbl_status.status_peg = tbl_data_status_pegawai.kode_status JOIN tbl_no_telp ON tbl_pegawai.id_telp = tbl_no_telp.id_telp WHERE tbl_pegawai.ket='Aktif' AND tbl_status.status_peg = 'STP0003'") or die(mysqli_error($con));
                           $no = 0;
                           while($row=mysqli_fetch_array($query)){
                             $no++;
                             ?>
                             <tr>
-                              <td><?php echo $row['nip']; ?></td>
+                              <td><?php echo $row['nik']; ?></td>
                               <td><?php echo $row['nama']; ?></td>
-                              <td><?php echo $row['n_bag']; ?></td>
-                              <td><?php echo $row['nohp']; ?></td>
+                              <td><?php echo $row['nama_jabatan']; ?></td>
+                              <td><?php echo $row['hp']; ?></td>
                             </tr>
                             <?php
                           }
@@ -59,20 +59,33 @@
                         ?>
                       </tbody>
                     </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="datatable-responsive" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>NIK</th>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>No. Handphone</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
                   </div>
                 </div>
               </div>
 
    <!-- Modal -->
-  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <!-- <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Edit Data Technician PKL</h4>
         </div>
-        <!-- memulai untuk konten dinamis -->
-        <!-- lihat id="data_siswa", ini yang di pangging pada ajax di bawah -->
+
         <div class="modal-body" id="data_siswa">
         </div>
       </div>
@@ -124,4 +137,15 @@ $(document).ready(function(){
                 );
             });
         });
-    </script>
+    </script> -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=technician-pkl",
+      } );
+  } );
+</script> -->

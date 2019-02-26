@@ -71,7 +71,7 @@
                     </a>
                   <div class="x_content">
 
-                    <table width='100%' class='table table-striped table-hover table-responsive dt-responsive nowrap'>
+                    <table width='100%' id="datatable-responsive" class='table table-striped table-hover table-responsive dt-responsive nowrap table-bordered'>
                       <thead>
                         <tr>
                           <th width='5%'>NO</th>

@@ -8,7 +8,7 @@
 
     if ($mod == "view") {
 
-      $p_tampil     = mysqli_query($con, "SELECT * FROM tbl_kode_income join tbl_income on tbl_income.kd_income = tbl_kode_income.kd_income join tbl_income_detail on tbl_income_detail.kd_detail = tbl_kode_income.kd_detail WHERE no_ba = '$id_daftar_g'");
+      $p_tampil     = mysqli_query($con, "SELECT * FROM tbl_kode_income join tbl_income on tbl_income.kd_income = tbl_kode_income.kd_income join tbl_income_detail on tbl_income_detail.kd_detail = tbl_kode_income.kd_detail WHERE id_income = '$id_daftar_g'");
       $p_lihat      = mysqli_fetch_array($p_tampil);
       $id_daftar    = $p_lihat['id_income'];
       $kd_income    = $p_lihat['kd_income'];
@@ -171,10 +171,10 @@
                               <td class="col-sm-8 left"><?php echo $p_desk; ?></td>
                             </tr>
                         </table><br>
-                        <a href="?id=view-income&mod=more&id_n=<?php echo $p_ba;?>"><button type="button" class="btn btn-primary pull-right">VIEW MORE</button></a>
+                        <a href="?id=view-income&mod=more&id_n=<?php echo $p_ba; ?>"><button type="button" class="btn btn-primary pull-right">VIEW MORE</button></a>
                         <hr><br>
                         <div class="x_content">
-                        <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                          <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
                           <thead>
                             <tr>
                               <th>No BOQ</th>
@@ -214,6 +214,23 @@
                             <?php } ?>
                           </tbody>
                         </table>
+
+                        <!--Ajax Processing  -->
+                         <!-- <div class="table-responsive">
+                          <table id="example" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                      <th>No BOQ</th>
+                                      <th>WO ID</th>
+                                      <th>SO ID</th>
+                                      <th>TOTAL BIAYA</th>
+                                      <th>Action</th>
+                                    </tr>
+                                </thead>
+
+                            </table>
+                          </div> -->
+
                         </div>
 
                         <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
@@ -501,3 +518,13 @@
             </div>
         </div>
         <?php } ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=boq-list&no_ba=<?= $p_ba ?>",
+      } );
+  } );
+</script>

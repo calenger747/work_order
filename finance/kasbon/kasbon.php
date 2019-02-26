@@ -34,7 +34,7 @@
                     <a href="?id=kasbon&mod=belum"><button type="button" class="btn btn-danger">BELUM SELESAI</button></a>
                   </center>
                   <div class="x_content">
-                    <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                    <!-- <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
                       <thead>
                         <tr>
                           <th>No.</th>
@@ -122,7 +122,38 @@
                         </tr>
                     <?php $no++; } ?>
                       </tbody>
-                    </table>
+                    </table> -->
+
+                    <!--Ajax Processing  -->
+                       <div class="table-responsive">
+                        <table id="datatable-responsive" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div>
                   </div>
                 </div>
               </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-all",
+      } );
+  } );
+</script>

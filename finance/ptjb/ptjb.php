@@ -28,7 +28,7 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-                    <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                    <!-- <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
                       <thead>
                         <tr>
                           <th>No.</th>
@@ -71,7 +71,33 @@
                         </tr>
                     <?php $no++; } ?>
                       </tbody>
-                    </table>
+                    </table> -->
+
+                    <!--Ajax Processing  -->
+                       <div class="table-responsive">
+                        <table id="example-1" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Amount</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div>
                   </div>
                 </div>
               </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example-1').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=ptjb-list",
+      } );
+  } );
+</script>

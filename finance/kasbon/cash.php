@@ -97,6 +97,26 @@
                     <?php $no++; } ?>
                       </tbody>
                     </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="example-1" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
                   </div>
 
                   <?php
@@ -131,7 +151,7 @@
                       <?php
                         
                         $no = 1;
-                        $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount join tbl_status_kasbon on tbl_status_kasbon.kode_status = tbl_kasbon.kode_status WHERE st_lunas = 'PEMDING'");
+                        $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount join tbl_status_kasbon on tbl_status_kasbon.kode_status = tbl_kasbon.kode_status WHERE st_lunas = 'PENDING'");
                         while($row = $res->fetch_assoc()){
 
                           $jmlh = $row['jmlh_amount'];  
@@ -169,6 +189,26 @@
                     <?php $no++; } ?>
                       </tbody>
                     </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="example-2" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
                   </div>
 
                   <?php 
@@ -240,6 +280,26 @@
                     <?php $no++; } ?>
                       </tbody>
                     </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="example-3" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
                   </div>
                   
                   <?php
@@ -247,3 +307,31 @@
                   ?>
                 </div>
               </div>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example-1').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-selesai",
+      } );
+  } );
+</script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive-2').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-pending",
+      } );
+  } );
+</script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive-3').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-belum",
+      } );
+  } );
+</script> -->

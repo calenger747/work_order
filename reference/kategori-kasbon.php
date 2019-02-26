@@ -71,7 +71,7 @@
                     </a>
                   <div class="x_content">
 
-                    <table width='100%' class='table table-striped table-hover table-responsive dt-responsive nowrap'>
+                    <table width='100%' id="datatable-responsive" class='table table-striped table-hover table-responsive dt-responsive nowrap table-bordered'>
                       <thead>
                         <tr>
                           <th width='5%'>NO</th>
@@ -95,8 +95,8 @@
                                   <i class="ace-icon fa fa-pencil-square-o bigger-160"></i>
                                 </a>
                                 <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=kategori&mod=del&id_n=<?php echo $row[0];?>" onclick="return confirm('Menghapus Data <?php echo $row[1];?>')">
-                              <span class="fa fa-trash-o">
-                            </a>
+                                  <span class="fa fa-trash-o">
+                                </a>
                               </td>
                             </tr>
                             <?php
@@ -105,9 +105,23 @@
                         ?>
                       </tbody>
                     </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="example-1" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th width='5%'>NO</th>
+                                    <th width='70%'>Kategori Kasbon</th>
+                                    <th width='25%'>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
                   </div>
                 </div>
               </div>
+
 
               <div class="clearfix"></div>
 
@@ -207,3 +221,14 @@ $(document).ready(function(){
             });
         });
     </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example-1').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kategori-kasbon",
+      } );
+  } );
+</script>
