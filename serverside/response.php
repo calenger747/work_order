@@ -432,6 +432,139 @@ if ($tampil == 'project') {
     //create our json
     $datatable->create_data();
 
+} else if ($tampil == 'ptjb-list-rm') {
+    //kolom apa saja yang akan ditampilkan
+    $columns = array(
+        'wo_id',
+        'nama',
+        );
+
+
+    //jika ingin langsung menambahkan kondisi where dengan parameter terentu query seperti ini 
+        //misal kita akan langsung menambahkan kondisi langsung hanya menampilkan provinsi jawabarat saja, 
+    //prepared statement untuk keamanan data
+    /*$array_id_provinsi = array('provinsi.id_prov' => 32); //32 adalah id untuk jawabarat
+        $query = $datatable->get_custom("select provinsi.nama_prov,kabupaten.nama_kab, kecamatan.nama_kec,id_kec
+    from provinsi inner join kabupaten 
+    on provinsi.id_prov=kabupaten.id_prov
+    inner join kecamatan on kabupaten.id_kab=kecamatan.id_kab where provinsi.id_prov=?",$columns,$array_id_provinsi);*/
+
+    //untuk mencobanya uncomment query diatas dan comment query dibawah
+
+    //lakukan query data dari 3 table dengan inner join
+        $query = $datatable->get_custom("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb",$columns);
+
+
+        //buat inisialisasi array data
+        $data = array();
+
+        $no = 1;
+        foreach ($query as $value) {
+
+        //array sementara data
+        $rp = 'Rp. ';
+        $total = $value->amount1 + $value->amount2 + $value->amount3 + $value->amount4 + $value->amount5 + $value->amount6 + $value->amount7 + $value->amount8 + $value->amount9 + $value->amount10;
+        $price[]      = $total;
+        $amount_total = array_sum($price);
+
+        $ResultData = array();
+        
+        //masukan data ke array sesuai kolom table
+        $ResultData[] = $no;
+        $ResultData[] = $value->wo_id;
+        $ResultData[] = $value->nama;
+        $ResultData[] = "Rp." .number_format($total, 0, ".", ".");
+
+        //bisa juga pake logic misal jika value tertentu maka outputnya
+
+        //kita bisa buat tombol untuk keperluan edit, delete, dll, 
+        $ResultData[] = '<a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-ptjb&mod=view&id_n='.$value->id_ptjb.'">
+                                  <span class="fa fa-list">
+                                </a>';
+
+        //memasukan array ke variable $data
+
+        $data[] = $ResultData;
+        $no++;
+        }
+
+    //set data
+    $datatable->set_data($data);
+    //create our json
+    $datatable->create_data();
+
+} else if ($tampil == 'kasbon-list-all-rm') {
+    //kolom apa saja yang akan ditampilkan
+    $columns = array(
+        'nama_project',
+        'wo_id',
+        'tbl_kasbon.nama',
+        'tgl_jalan',
+        'st_lunas',
+        );
+
+
+    //jika ingin langsung menambahkan kondisi where dengan parameter terentu query seperti ini 
+        //misal kita akan langsung menambahkan kondisi langsung hanya menampilkan provinsi jawabarat saja, 
+    //prepared statement untuk keamanan data
+    /*$array_id_provinsi = array('provinsi.id_prov' => 32); //32 adalah id untuk jawabarat
+        $query = $datatable->get_custom("select provinsi.nama_prov,kabupaten.nama_kab, kecamatan.nama_kec,id_kec
+    from provinsi inner join kabupaten 
+    on provinsi.id_prov=kabupaten.id_prov
+    inner join kecamatan on kabupaten.id_kab=kecamatan.id_kab where provinsi.id_prov=?",$columns,$array_id_provinsi);*/
+
+    //untuk mencobanya uncomment query diatas dan comment query dibawah
+
+    //lakukan query data dari 3 table dengan inner join
+        $query = $datatable->get_custom("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount join tbl_status_kasbon on tbl_status_kasbon.kode_status = tbl_kasbon.kode_status",$columns);
+
+
+        //buat inisialisasi array data
+        $data = array();
+
+        $no = 1;
+        foreach ($query as $value) {
+
+        //array sementara data
+        $status = $value->st_lunas;  
+        $jmlh = $value->jmlh_amount;
+        $rp = 'Rp. ';
+        $total = $value->amount1 + $value->amount2 + $value->amount3 + $value->amount4 + $value->amount5 + $value->amount6 + $value->amount7 + $value->amount8 + $value->amount9 + $value->amount10;
+        $price[]      = $total;
+        $amount_total = array_sum($price);
+        $sisa = $value->jmlh_amount - $total;
+
+        $ResultData = array();
+        
+        //masukan data ke array sesuai kolom table
+            $ResultData[] = $no;
+            $ResultData[] = $value->nama_project;
+            $ResultData[] = $value->wo_id;
+            $ResultData[] = $value->nama;
+            $ResultData[] = $value->tgl_jalan;
+            $ResultData[] = "Rp." .number_format($jmlh, 0, ".", ".");
+            $ResultData[] = "Rp." .number_format($total, 0, ".", ".");
+            $ResultData[] = "Rp." .number_format($sisa, 0, ".", ".");
+            $ResultData[] = $value->st_lunas;
+
+        //bisa juga pake logic misal jika value tertentu maka outputnya
+
+        //kita bisa buat tombol untuk keperluan edit, delete, dll, 
+        $ResultData[] = '<a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n='.$value->id_kasbon.'">
+                                  <span class="fa fa-list">
+                                </a>';
+
+        //memasukan array ke variable $data
+
+        $data[] = $ResultData;
+        $no++;
+        }
+
+    //set data
+    $datatable->set_data($data);
+    //create our json
+    $datatable->create_data();
+
 } else if ($tampil == 'project-admin') {
     //kolom apa saja yang akan ditampilkan
     $columns = array(

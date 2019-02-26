@@ -567,7 +567,7 @@
                                         <option hidden="" value="<?php echo $e_pkl3; ?>"><?php echo $e_pkl3; ?></option>
                                         <option value=""> </option>
                                           <?php
-                                        $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg != 'STP0003' "); 
+                                        $q = mysqli_query($con, "select * from tbl_pegawai, tbl_status WHERE tbl_pegawai.id_status = tbl_status.id_status AND tbl_status.status_peg = 'STP0003' "); 
 
                                           while ($a = mysqli_fetch_array($q)){
                                           if ($a['nama'] == $p_t1) {

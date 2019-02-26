@@ -28,7 +28,7 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-                    <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                    <!-- <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
                       <thead>
                         <tr>
                           <th>No.</th>
@@ -47,6 +47,8 @@
                         $res = $con->query("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb");
                         while($row = $res->fetch_assoc()){
                           $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
+                          $price[]      = $total;
+                          $amount_total = array_sum($price);
                           $rp = "Rp. ";
                       ?>
 
@@ -58,12 +60,44 @@
                           <td>
                             <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-ptjb&mod=view&id_n=<?php echo $row['id_ptjb'];?>">
                               <span class="fa fa-list">
-                            </a> 
+                            </a>                          
+                            <a data-rel="tooltip" title="Edit Data" class="green" href="?id=add-ptjb&mod=edit&id_n=<?php echo $row['id_ptjb'];?>">
+                              <span class="fa fa-edit">
+                            </a>
+                            <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=ptjb&mod=del&id_n=<?php echo $row['id_ptjb'];?>" onclick="return confirm('Menghapus Data <?php echo $row['id_ptjb'];?>')">
+                              <span class="fa fa-trash-o">
+                            </a>
                           </td>
                         </tr>
                     <?php $no++; } ?>
                       </tbody>
-                    </table>
+                    </table> -->
+
+                    <!--Ajax Processing  -->
+                       <div class="table-responsive">
+                        <table id="example-1" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Amount</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div>
                   </div>
                 </div>
               </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example-1').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=ptjb-list-rm",
+      } );
+  } );
+</script>

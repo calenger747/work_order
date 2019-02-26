@@ -286,7 +286,7 @@
                                   </div>
                                   <br><br>
                                   <input type="submit" name="kirim_daftar" class="btn btn-primary pull-right" value="<?php echo $p_submit; ?>">
-                                  <a href="?id=project"><button type="button" class="btn btn-warning pull-left"><span class="fa fa-arrow-left"> Back</span></button></a>
+                                  <a href="?id=project&view=project"><button type="button" class="btn btn-warning pull-left"><span class="fa fa-arrow-left"> Back</span></button></a>
                                 </div>
                             </div>
 

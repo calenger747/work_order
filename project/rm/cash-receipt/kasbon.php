@@ -34,13 +34,14 @@
                     <a href="?id=kasbon&mod=belum"><button type="button" class="btn btn-danger">BELUM SELESAI</button></a>
                   </center>
                   <div class="x_content">
-                    <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                    <!-- <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
                       <thead>
                         <tr>
                           <th>No.</th>
                           <th>Project Name</th>
                           <th>WO ID</th>
                           <th>Technician</th>
+                          <th>Tgl Kasbon</th>
                           <th>Kasbon</th>
                           <th>Terpakai</th>
                           <th>Sisa</th>
@@ -74,6 +75,7 @@
                           <td class='td1' style='text-align: left;'>".$row['nama_project']."</td>
                           <td class='td1'>".$row['wo_id']."</td>
                           <td class='td1'>".$row['nama']."</td>
+                          <td class='td1'>".$row['tgl_jalan']."</td>
                           <td class='td1'>".$rp, number_format($jmlh, 0, ".", ".")."</td>
                           <td class='td1'>".$rp, number_format($total, 0, ".", ".")."</td>
                           <td class='td1'>".$rp, number_format($sisa, 0, ".", ".")."</td>
@@ -84,6 +86,7 @@
                           <td class='td2' style='text-align: left;'>".$row['nama_project']."</td>
                           <td class='td2'>".$row['wo_id']."</td>
                           <td class='td2'>".$row['nama']."</td>
+                          <td class='td2'>".$row['tgl_jalan']."</td>
                           <td class='td2'>".$rp, number_format($jmlh, 0, ".", ".")."</td>
                           <td class='td2'>".$rp, number_format($total, 0, ".", ".")."</td>
                           <td class='td2'>".$rp, number_format($sisa, 0, ".", ".")."</td>
@@ -94,6 +97,7 @@
                           <td class='td3' style='text-align: left;'>".$row['nama_project']."</td>
                           <td class='td3'>".$row['wo_id']."</td>
                           <td class='td3'>".$row['nama']."</td>
+                          <td class='td3'>".$row['tgl_jalan']."</td>
                           <td class='td3'>".$rp, number_format($jmlh, 0, ".", ".")."</td>
                           <td class='td3'>".$rp, number_format($total, 0, ".", ".")."</td>
                           <td class='td3'>".$rp, number_format($sisa, 0, ".", ".")."</td>
@@ -105,11 +109,51 @@
                             <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n=<?php echo $row['id_kasbon'];?>">
                               <span class="fa fa-list">
                             </a>
+                            <a data-rel="tooltip" title="Update Detail" class="purple" href="?id=add-cash-receipt&mod=update&id_n=<?php echo $row['id_kasbon'];?>">
+                              <span class="fa fa-plus-square">
+                            </a>
+                            <a data-rel="tooltip" title="Edit Data" class="green" href="?id=add-cash-receipt&mod=edit&id_n=<?php echo $row['id_kasbon'];?>">
+                              <span class="fa fa-edit">
+                            </a>
+                            <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=cash-receipt&mod=del&id_n=<?php echo $row['id_kasbon'];?>" onclick="return confirm('Menghapus Data <?php echo $row['id_kasbon'];?>')">
+                              <span class="fa fa-trash-o">
+                            </a>
                           </td>
                         </tr>
                     <?php $no++; } ?>
                       </tbody>
-                    </table>
+                    </table> -->
+
+                    <!--Ajax Processing  -->
+                       <div class="table-responsive">
+                        <table id="datatable-responsive" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div>
                   </div>
                 </div>
               </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-all-rm",
+      } );
+  } );
+</script>

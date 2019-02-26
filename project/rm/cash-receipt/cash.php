@@ -45,6 +45,7 @@
                           <th>Project Name</th>
                           <th>WO ID</th>
                           <th>Technician</th>
+                          <th>Tgl Kasbon</th>
                           <th>Kasbon</th>
                           <th>Terpakai</th>
                           <th>Sisa</th>
@@ -73,67 +74,7 @@
                           <td style="text-align: left;"><?php echo $row['nama_project']; ?></td>
                           <td><?php echo $row['wo_id']; ?></td>
                           <td><?php echo $row['nama']; ?></td>
-                          <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
-                          <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
-                          <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
-                          <td><?php echo $row['st_lunas']; ?></td>
-                          <td>
-                            <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n=<?php echo $row['id_kasbon'];?>">
-                              <span class="fa fa-list">
-                            </a>
-                          </td>
-                        </tr>
-                    <?php $no++; } ?>
-                      </tbody>
-                    </table>
-                  </div>
-
-                  <?php
-                    } elseif ($mod == 'pending') {
-                  ?>
-                  
-                  <center>
-                    <a href="?id=cash-receipt"><button type="button" class="btn btn-success">ALL</button></a>
-                    <a href="?id=kasbon&mod=selesai"><button type="button" class="btn btn-primary">SELESAI</button></a>
-                    <a href="?id=kasbon&mod=pending"><button type="button" class="btn btn-warning" >PENDING</button></a>
-                    <a href="?id=kasbon&mod=belum"><button type="button" class="btn btn-danger">BELUM SELESAI</button></a>
-                  </center>
-                  <div class="x_content">
-                    <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
-                      <thead>
-                        <tr>
-                          <th>No.</th>
-                          <th>Project Name</th>
-                          <th>WO ID</th>
-                          <th>Technician</th>
-                          <th>Kasbon</th>
-                          <th>Terpakai</th>
-                          <th>Sisa</th>
-                          <th>Keterangan</th>
-                          <th>Action</th>
-                        </tr>
-                      </thead>
-
-                      <tbody>
-                        
-                      <?php
-                        
-                        $no = 1;
-                        $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount join tbl_status_kasbon on tbl_status_kasbon.kode_status = tbl_kasbon.kode_status WHERE st_lunas = 'PEMDING'");
-                        while($row = $res->fetch_assoc()){
-
-                          $jmlh = $row['jmlh_amount'];  
-                          $rp = "Rp. ";
-                          $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
-                          $sisa = $row['jmlh_amount'] - $total;                     
-                        
-                      ?>
-                      
-                      <tr>
-                          <td><?php echo $no; ?></td>
-                          <td style="text-align: left;"><?php echo $row['nama_project']; ?></td>
-                          <td><?php echo $row['wo_id']; ?></td>
-                          <td><?php echo $row['nama']; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
                           <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
@@ -156,6 +97,118 @@
                     <?php $no++; } ?>
                       </tbody>
                     </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="example-1" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
+                  </div>
+
+                  <?php
+                    } elseif ($mod == 'pending') {
+                  ?>
+                  
+                  <center>
+                    <a href="?id=cash-receipt"><button type="button" class="btn btn-success">ALL</button></a>
+                    <a href="?id=kasbon&mod=selesai"><button type="button" class="btn btn-primary">SELESAI</button></a>
+                    <a href="?id=kasbon&mod=pending"><button type="button" class="btn btn-warning" >PENDING</button></a>
+                    <a href="?id=kasbon&mod=belum"><button type="button" class="btn btn-danger">BELUM SELESAI</button></a>
+                  </center>
+                  <div class="x_content">
+                    <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
+                      <thead>
+                        <tr>
+                          <th>No.</th>
+                          <th>Project Name</th>
+                          <th>WO ID</th>
+                          <th>Technician</th>
+                          <th>Tgl Kasbon</th>
+                          <th>Kasbon</th>
+                          <th>Terpakai</th>
+                          <th>Sisa</th>
+                          <th>Keterangan</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        
+                      <?php
+                        
+                        $no = 1;
+                        $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount join tbl_status_kasbon on tbl_status_kasbon.kode_status = tbl_kasbon.kode_status WHERE st_lunas = 'PENDING'");
+                        while($row = $res->fetch_assoc()){
+
+                          $jmlh = $row['jmlh_amount'];  
+                          $rp = "Rp. ";
+                          $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
+                          $sisa = $row['jmlh_amount'] - $total;                     
+                        
+                      ?>
+                      
+                      <tr>
+                          <td><?php echo $no; ?></td>
+                          <td style="text-align: left;"><?php echo $row['nama_project']; ?></td>
+                          <td><?php echo $row['wo_id']; ?></td>
+                          <td><?php echo $row['nama']; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
+                          <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
+                          <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
+                          <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
+                          <td><?php echo $row['st_lunas']; ?></td>
+                          <td>
+                            <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n=<?php echo $row['id_kasbon'];?>">
+                              <span class="fa fa-list">
+                            </a>
+                            <a data-rel="tooltip" title="Update Detail" class="purple" href="?id=add-cash-receipt&mod=update&id_n=<?php echo $row['id_kasbon'];?>">
+                              <span class="fa fa-plus-square">
+                            </a>
+                            <a data-rel="tooltip" title="Edit Data" class="green" href="?id=add-cash-receipt&mod=edit&id_n=<?php echo $row['id_kasbon'];?>">
+                              <span class="fa fa-edit">
+                            </a>
+                            <a data-rel="tooltip" title="Hapus Data" class="red" href="?id=cash-receipt&mod=del&id_n=<?php echo $row['id_kasbon'];?>" onclick="return confirm('Menghapus Data <?php echo $row['id_kasbon'];?>')">
+                              <span class="fa fa-trash-o">
+                            </a>
+                          </td>
+                        </tr>
+                    <?php $no++; } ?>
+                      </tbody>
+                    </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="example-2" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
                   </div>
 
                   <?php 
@@ -176,6 +229,7 @@
                           <th>Project Name</th>
                           <th>WO ID</th>
                           <th>Technician</th>
+                          <th>Tgl Kasbon</th>
                           <th>Kasbon</th>
                           <th>Terpakai</th>
                           <th>Sisa</th>
@@ -203,6 +257,7 @@
                           <td style="text-align: left;"><?php echo $row['nama_project']; ?></td>
                           <td><?php echo $row['wo_id']; ?></td>
                           <td><?php echo $row['nama']; ?></td>
+                          <td><?php echo $row['tgl_jalan']; ?></td>
                           <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                           <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
@@ -216,6 +271,26 @@
                     <?php $no++; } ?>
                       </tbody>
                     </table>
+
+                    <!--Ajax Processing  -->
+                       <!-- <div class="table-responsive">
+                        <table id="example-3" class="table table-bordered table-hover table-responsive" cellspacing="0" width="100%">
+                              <thead>
+                                  <tr>
+                                    <th>No.</th>
+                                    <th>Project Name</th>
+                                    <th>WO ID</th>
+                                    <th>Technician</th>
+                                    <th>Tgl Kasbon</th>
+                                    <th>Kasbon</th>
+                                    <th>Terpakai</th>
+                                    <th>Sisa</th>
+                                    <th>Keterangan</th>
+                                    <th>Action</th>
+                                  </tr>
+                              </thead>
+                          </table>
+                        </div> -->
                   </div>
                   
                   <?php
@@ -223,3 +298,31 @@
                   ?>
                 </div>
               </div>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+     $('#example-1').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-selesai",
+      } );
+  } );
+</script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive-2').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-pending",
+      } );
+  } );
+</script>
+<script>
+    $(document).ready(function() {
+     $('#datatable-responsive-3').DataTable( {
+          "bProcessing": true,
+          "bServerSide": true,
+          "ajax": "serverside/response.php?view=kasbon-list-belum",
+      } );
+  } );
+</script> -->
