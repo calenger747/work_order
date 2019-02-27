@@ -137,6 +137,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=income-list",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>

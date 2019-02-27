@@ -110,6 +110,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=rm-project",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>

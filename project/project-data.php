@@ -428,6 +428,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=project",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>
@@ -437,6 +440,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=kasbon",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>
@@ -446,6 +452,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=ptjb",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>
@@ -455,6 +464,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=income",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>
@@ -464,6 +476,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=order-w-t&bulan=<?php echo $p_bulan;?>&tahun=<?php echo $p_tahun;?>",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>

@@ -154,6 +154,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=kasbon-list-all",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>

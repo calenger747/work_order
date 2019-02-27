@@ -525,6 +525,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=boq-list&no_ba=<?= $p_ba ?>",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>

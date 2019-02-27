@@ -229,6 +229,9 @@ $(document).ready(function(){
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=kategori-kasbon",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>

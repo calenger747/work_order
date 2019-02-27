@@ -150,6 +150,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=project-teknisi",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>

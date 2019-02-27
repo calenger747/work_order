@@ -98,6 +98,9 @@
           "bProcessing": true,
           "bServerSide": true,
           "ajax": "serverside/response.php?view=ptjb-list",
+          "language": {                
+            "infoFiltered": ""
+          }
       } );
   } );
 </script>
