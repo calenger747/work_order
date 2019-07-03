@@ -208,7 +208,7 @@
                         <?php
                           
                           $no = 1;
-                          $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount where wo_id = '$p_id_wo' AND so_id = '$p_id_so'");
+                          $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount where wo_id like '%".$p_id_wo."%' AND so_id like '%".$p_id_so."%'");
                           while($row = $res->fetch_assoc()){
                             $rp = "Rp. ";
                             $jmlh = $row['jmlh_amount'];
@@ -253,7 +253,7 @@
                           <?php
                              
                             $no = 1;
-                            $res = $con->query("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb where wo_id = '$p_id_wo' AND so_id = '$p_id_so'");
+                            $res = $con->query("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb where wo_id like '%".$p_id_wo."%' AND so_id like '%".$p_id_so."%'");
                             while($row = $res->fetch_assoc()){
                               $rp = "Rp. ";
                               $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
