@@ -191,45 +191,52 @@
                     <div class="card">
                       <h3><b>Kasbon</b></h3><hr>
                       <table id="datatable-responsive" class="table table-striped table-bordered table-responsive dt-responsive nowrap table-hover">
-                      <thead>
-                        <tr>
-                          <th>No.</th>
-                          <th>Tanggal Kasbon</th>
-                          <th>ID WO</th>
-                          <th>ID SO</th>
-                          <th>Total Kasbon</th>
-                          <th>Total Terpakai</th>
-                          <th>Total Sisa</th>
-                          <th>Action</th>
-                        </tr>
-                      </thead>
+                        <thead>
+                          <tr>
+                            <th>No.</th>
+                            <th>Tanggal Kasbon</th>
+                            <th>ID WO</th>
+                            <th>ID SO</th>
+                            <th>Total Kasbon</th>
+                            <th>Total Terpakai</th>
+                            <th>Total Sisa</th>
+                            <th>Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <?php
+                            
+                            $no = 1;
+                            $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount where wo_id = '$p_id_wo' AND so_id = '$p_id_so'");
+                            while($row = $res->fetch_assoc()){
+                              $rp = "Rp. ";
+                              $jmlh = $row['jmlh_amount'];
+                              $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
+                              $sisa = $jmlh - $total;
+                              $price[] = $total;
+                              $amount = array_sum($price);
+                          ?>
 
-                      <tbody>
-                        <?php
-                          
-                          $no = 1;
-                          $res = $con->query("SELECT * FROM tbl_kasbon join tbl_amount_kasbon on tbl_amount_kasbon.kode_amount = tbl_kasbon.kode_amount where wo_id like '%".$p_id_wo."%' AND so_id like '%".$p_id_so."%'");
-                          while($row = $res->fetch_assoc()){
-                            $rp = "Rp. ";
-                            $jmlh = $row['jmlh_amount'];
-                            $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
-                            $sisa = $jmlh - $total;
-                        ?>
-
-                        <tr>
-                          <td><?php echo $no; ?></td>
-                          <td><?php echo $row['tgl_jalan']; ?></td>
-                          <td><?php echo $row['wo_id']; ?></td>
-                          <td><?php echo $row['so_id']; ?></td>
-                          <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
-                          <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
-                          <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
-                          <td>
-                            <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n=<?php echo $row['id_kasbon'];?>"><span class="fa fa-list"></span></a>  
-                          </td>
-                        </tr>
-                        <?php $no++; } ?>
-                      </tbody>
+                          <tr>
+                            <td><?php echo $no; ?></td>
+                            <td><?php echo $row['tgl_jalan']; ?></td>
+                            <td><?php echo $row['wo_id']; ?></td>
+                            <td><?php echo $row['so_id']; ?></td>
+                            <td><?php echo $rp, number_format($jmlh, 0, ".", "."); ?></td>
+                            <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
+                            <td><?php echo $rp, number_format($sisa, 0, ".", "."); ?></td>
+                            <td>
+                              <a data-rel="tooltip" title="View Detail" class="blue" href="?id=view-kasbon&mod=view&id_n=<?php echo $row['id_kasbon'];?>"><span class="fa fa-list"></span></a>  
+                            </td>
+                          </tr>
+                          <?php $no++; } ?>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <th colspan="6"><h3>Total Kasbon : </h3></th>
+                            <th colspan="1"><h3><?php echo $rp, number_format($amount, 0, ".", "."); ?></h3></th>
+                          </tr>
+                        </tfoot>
                       </table>
                     </div>
                   </div>
@@ -253,15 +260,17 @@
                           <?php
                              
                             $no = 1;
-                            $res = $con->query("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb where wo_id like '%".$p_id_wo."%' AND so_id like '%".$p_id_so."%'");
+                            $res = $con->query("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb where wo_id = '$p_id_wo' AND so_id = '$p_id_so'");
                             while($row = $res->fetch_assoc()){
                               $rp = "Rp. ";
                               $total = $row['amount1'] + $row['amount2'] + $row['amount3'] + $row['amount4'] + $row['amount5'] + $row['amount6'] + $row['amount7'] + $row['amount8'] + $row['amount9'] + $row['amount10'];
+                              $price[] = $total;
+                              $amount = array_sum($price);
                           ?>
 
                           <tr>
                             <td><?php echo $no; ?></td>
-                            <td><?php echo $row['date_now']; ?></td>
+                            <td><?php echo $row['start_date']; ?></td>
                             <td><?php echo $row['wo_id']; ?></td>
                             <td><?php echo $row['so_id']; ?></td>
                             <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
@@ -271,6 +280,12 @@
                           </tr>
                           <?php $no++; } ?>
                         </tbody>
+                        <tfoot>
+                          <tr>
+                            <th colspan="4"><h3>Total PTJB : </h3></th>
+                            <th colspan="2"><h3><?php echo $rp, number_format($amount, 0, ".", "."); ?></h3></th>
+                          </tr>
+                        </tfoot>
                       </table>
                     </div>
                   </div>

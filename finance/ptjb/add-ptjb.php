@@ -136,7 +136,7 @@
       $q_tmb2 = mysqli_query($con, "INSERT INTO tbl_amount VALUES ('$newptjb', '$p_amount1', '$p_ket1', '$p_amount2', '$p_ket2', '$p_amount3', '$p_ket3', '$p_amount4', '$p_ket4', '$p_amount5', '$p_ket5', '$p_amount6', '$p_ket6', '$p_amount7', '$p_ket7', '$p_amount8', '$p_ket8', '$p_amount9', '$p_ket9', '$p_amount10', '$p_ket10' )");
       
       if ($q_tmb1 == true && $q_tmb2 == true) {
-      echo "<div class='alert alert-success'><strong>SUCCESS</strong> Data Berhasil di Tambahkan <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=ptjb' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-folder-open'></i> Show Data</a></div>";
+      echo "<div class='alert alert-success'><strong>SUCCESS</strong> Data Berhasil di Tambahkan <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=ptjb' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-mail-reply'></i> Back</a></div>";
       } else {
         echo "<div id='gagal' class='alert alert-danger'><strong>Data Gagal di Tambahkan ! </strong>".mysqli_error($con)." <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
       }
@@ -148,7 +148,7 @@
     if ($q_edt1 == true && $q_edt2 == true) {
       echo "<div id='gagal' class='alert alert-success'><strong>SUCCESS</strong> Data Order Berhasil di Edit <i class=' ace-icon fa fa-check'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=ptjb' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-mail-reply'></i> Back</a></div>";
     } else {
-      echo "<div id='gagal' class='alert alert-danger'><strong>Data Gagal di Edit ! </strong>".mysqli_error($con)." <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button></div>";
+      echo "<div id='gagal' class='alert alert-danger'><strong>Data Gagal di Edit ! </strong>".mysqli_error($con)." <i class='ace-icon fa fa-times'></i><button type='button' class='close' data-dismiss='alert'><i class='ace-icon fa fa-times'></i></button><a href='?id=ptjb' class='btn btn-primary' style='float: right;'><i class='ace-icon fa fa-mail-reply'></i> Back</a></div>";
     }
   }
 

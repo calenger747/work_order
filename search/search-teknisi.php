@@ -13,7 +13,7 @@
  
 $term = $_GET['term'];
  
-$query = $pdo->prepare("SELECT * FROM pegawai WHERE nama like '%".$term."%'");
+$query = $pdo->prepare("SELECT * FROM tbl_pegawai WHERE nama like '%".$term."%'");
 $query->execute();
 $json = array();
 while($datacust = $query->fetch()) {

@@ -6,6 +6,7 @@ $tampil     = isset($_GET['view']) ? $_GET['view'] : NULL;
 $p_bulan    = isset($_GET['bulan']) ? $_GET['bulan'] : NULL;
 $p_tahun    = isset($_GET['tahun']) ? $_GET['tahun'] : NULL;
 $p_ba       = isset($_GET['no_ba']) ? $_GET['no_ba'] : NULL;
+$p_wo       = isset($_GET['wo_id']) ? $_GET['wo_id'] : NULL;
 
 if ($tampil == 'project') {
     //kolom apa saja yang akan ditampilkan
@@ -937,8 +938,11 @@ if ($tampil == 'project') {
 } else if ($tampil == 'ptjb-list') {
     //kolom apa saja yang akan ditampilkan
     $columns = array(
-        'wo_id',
-        'nama',
+        'tbl_ptjb.wo_id',
+        'tbl_project_wo.so_id',
+        'tbl_schedule_wo.tgl',
+        'tbl_ptjb.start_date',
+        'tbl_ptjb.nama',
         );
 
 
@@ -954,7 +958,7 @@ if ($tampil == 'project') {
     //untuk mencobanya uncomment query diatas dan comment query dibawah
 
     //lakukan query data dari 3 table dengan inner join
-        $query = $datatable->get_custom("SELECT * FROM tbl_ptjb join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb",$columns);
+        $query = $datatable->get_custom("SELECT * FROM tbl_project_wo JOIN tbl_schedule_wo On tbl_schedule_wo.kode_jadwal = tbl_project_wo.kode_jadwal JOIN tbl_ptjb ON tbl_project_wo.wo_id = tbl_ptjb.wo_id join tbl_amount on tbl_amount.kode_amount_ptjb = tbl_ptjb.kode_amount_ptjb",$columns);
 
 
         //buat inisialisasi array data
@@ -974,6 +978,9 @@ if ($tampil == 'project') {
         //masukan data ke array sesuai kolom table
         $ResultData[] = $no;
         $ResultData[] = $value->wo_id;
+        $ResultData[] = $value->so_id;
+        $ResultData[] = $value->tgl;
+        $ResultData[] = $value->start_date;
         $ResultData[] = $value->nama;
         $ResultData[] = "Rp." .number_format($total, 0, ".", ".");
 
@@ -1498,3 +1505,66 @@ if ($tampil == 'project') {
     $datatable->create_data();
 
 }
+//  else if ($tampil == 'income-wo') {
+//     //kolom apa saja yang akan ditampilkan
+//     $columns = array(
+//         'tbl_project_wo.wo_id',
+//         'tbl_project_wo.so_id',
+//         'tbl_income.no_ba',
+//         'tbl_income.tglba',
+//         'tbl_income.boq',
+//         'tbl_income.price',
+//         );
+
+
+//     //jika ingin langsung menambahkan kondisi where dengan parameter terentu query seperti ini 
+//         //misal kita akan langsung menambahkan kondisi langsung hanya menampilkan provinsi jawabarat saja, 
+//     //prepared statement untuk keamanan data
+//     /*$array_id_provinsi = array('provinsi.id_prov' => 32); //32 adalah id untuk jawabarat
+//         $query = $datatable->get_custom("select provinsi.nama_prov,kabupaten.nama_kab, kecamatan.nama_kec,id_kec
+//     from provinsi inner join kabupaten 
+//     on provinsi.id_prov=kabupaten.id_prov
+//     inner join kecamatan on kabupaten.id_kab=kecamatan.id_kab where provinsi.id_prov=?",$columns,$array_id_provinsi);*/
+
+//     //untuk mencobanya uncomment query diatas dan comment query dibawah
+
+//     //lakukan query data dari 3 table dengan inner join
+//         $array_ket = array('tbl_pegawai.ket' => "Aktif",'tbl_status.status_peg' => "STP0003");
+//         $array_status = array('tbl_project_wo.wo_id' => $p_wo);
+//         $query = $datatable->get_custom("SELECT * FROM tbl_kode_income join tbl_income on tbl_income.kd_income = tbl_kode_income.kd_income join tbl_income_detail on tbl_income_detail.kd_detail = tbl_kode_income.kd_detail JOIN tbl_project_wo ON tbl_income.wo_id = tbl_project_wo.wo_id WHERE tbl_project_wo.wo_id like '%".$array_status."%'",$columns);
+
+
+//         //buat inisialisasi array data
+//         $data = array();
+
+//         $no = 1;
+//         foreach ($query as $value) {
+
+//         //array sementara data
+//         $ResultData = array();
+        
+//         //masukan data ke array sesuai kolom table
+//             $ResultData[] = $no;
+//             $ResultData[] = $value->wo_id;
+//             $ResultData[] = $value->so_id;
+//             $ResultData[] = $value->no_ba;
+//             $ResultData[] = $value->tglba;
+//             $ResultData[] = $value->boq;
+//             $ResultData[] = $value->price;
+
+//         //bisa juga pake logic misal jika value tertentu maka outputnya
+
+//         //kita bisa buat tombol untuk keperluan edit, delete, dll,
+
+//         //memasukan array ke variable $data
+
+//         $data[] = $ResultData;
+//         $no++;
+//         }
+
+//     //set data
+//     $datatable->set_data($data);
+//     //create our json
+//     $datatable->create_data();
+
+// }

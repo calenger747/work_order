@@ -43,17 +43,17 @@
                       <tbody>
                         <?php 
 
-                          $query=mysqli_query($con,"SELECT * FROM pegawai, bagian, tbl_email WHERE pegawai.id_bag = bagian.kd_bag AND tbl_email.nik = pegawai.nip") or die(mysqli_error($con));
+                          $query=mysqli_query($con,"SELECT * FROM tbl_pegawai JOIN tbl_kelahiran ON tbl_pegawai.id_lahir = tbl_kelahiran.id_lahir JOIN tbl_jabatan ON tbl_pegawai.id_jabatan = tbl_jabatan.id_jabatan JOIN tbl_data_jabatan ON tbl_jabatan.jabatan = tbl_data_jabatan.kode_jabatan JOIN tbl_no_telp ON tbl_pegawai.id_telp = tbl_no_telp.id_telp JOIN tbl_status ON tbl_status.id_status = tbl_pegawai.id_status JOIN tbl_data_email_pegawai ON tbl_pegawai.nik = tbl_data_email_pegawai.nip_pegawai WHERE tbl_status.status_peg != 'STP0003' AND tbl_pegawai.ket = 'Aktif'") or die(mysqli_error($con));
                           $no = 0;
                           while($row=mysqli_fetch_array($query)){
                             $no++;
                             ?>
                             <tr>
-                              <td><?php echo $row['nip']; ?></td>
+                              <td><?php echo $row['nik']; ?></td>
                               <td><?php echo $row['nama']; ?></td>
-                              <td><?php echo $row['n_bag']; ?></td>
-                              <td><?php echo $row['nm_email']; ?><?php echo $row['domain']; ?></td>
-                              <td><?php echo $row['nohp']; ?></td>
+                              <td><?php echo $row['nama_jabatan']; ?></td>
+                              <td><?php echo $row['email_pegawai']; ?><?php echo $row['domain']; ?></td>
+                              <td><?php echo $row['hp']; ?></td>
                             </tr>
                             <?php
                           }

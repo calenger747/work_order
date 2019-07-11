@@ -173,7 +173,7 @@
                             </tr>
                         </table>
 
-                        <a href="javascript:history.back()"><button type="button" class="btn btn-primary">BACK</button></a>
+                        <a href="javascript:history.back()"><button type="button" class="btn btn-warning">BACK</button></a>
                         </form>
                         </div>
                       </div>

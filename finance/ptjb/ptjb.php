@@ -33,8 +33,11 @@
                         <tr>
                           <th>No.</th>
                           <th>WO ID</th>
+                          <th>Tgl Kasbon</th>
+                          <th>Tgl Pekerjaan</th>
                           <th>Technician</th>
                           <th>Amount</th>
+                          <th>Tgl Pekerjaan</th>
                           <th>Action</th>
                         </tr>
                       </thead>
@@ -55,6 +58,8 @@
                         <tr>
                           <td><?php echo $no; ?></td>
                           <td><?php echo $row['wo_id']; ?></td>
+                          <td><?php echo $row['tgl']; ?></td>
+                          <td><?php echo $row['tgl_project']; ?></td>
                           <td><?php echo $row['nama']; ?></td>
                           <td><?php echo $rp, number_format($total, 0, ".", "."); ?></td>
                           <td>
@@ -80,6 +85,9 @@
                                   <tr>
                                     <th>No.</th>
                                     <th>WO ID</th>
+                                    <th>SO ID</th>
+                                    <th>Tgl Pekerjaan</th>
+                                    <th>Tgl kasbon</th>
                                     <th>Technician</th>
                                     <th>Amount</th>
                                     <th>Action</th>

@@ -106,7 +106,7 @@
                       <tbody>
                         <?php 
 
-                          $query=mysqli_query($con,"SELECT * FROM tbl_user_wo join pegawai on pegawai.nip = tbl_user_wo.id") or die(mysqli_error($con));
+                          $query=mysqli_query($con,"SELECT * FROM tbl_user_wo join tbl_pegawai on tbl_pegawai.nik = tbl_user_wo.id") or die(mysqli_error($con));
                           $no = 0;
                           while($row=mysqli_fetch_array($query)){
                             $no++;
